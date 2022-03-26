@@ -1,0 +1,56 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<cbinstall version="1.0" type="plugin" group="user">
+	<name>AcyMailing CB Plugin</name>
+	<creationDate>January 2013</creationDate>
+	<version>1.2</version>
+	<author>Acyba</author>
+	<authorEmail>dev@acyba.com</authorEmail>
+	<authorUrl>http://www.acyba.com</authorUrl>
+	<copyright>Copyright (C) 2009-2013 ACYBA SARL - All rights reserved.</copyright>
+	<license>http://www.gnu.org/licenses/gpl-3.0.html GNU/GPL</license>
+	<description>CB plugin for AcyMailing : manage the Mailing List subscription via CB</description>
+	<files>
+		<filename plugin="acymailing">acymailing.php</filename>
+		<filename>index.html</filename>
+	</files>
+		<params>
+			<param name="help" type="custom" class="getAcyMailingTab" method="help" default="" label="Help" description="Click on the help button to get some help" />
+			<param name="lists" type="custom" class="getAcyMailingTab" method="lists" default="All" label="Lists displayed on the registration form" description="The following selected lists will be displayed on the CB registration page if they are not selected in the field auto-subscribe to." />
+			<param name="hiddenlists" type="custom" class="getAcyMailingTab" method="lists" default="None" label="Auto-subscribe to" description="The user will be automatically subscribed to the selected lists. They won't be displayed on your registration form but the user will be subscribed to those lists during the registration process" />
+			<param name="listschecked" type="custom" class="getAcyMailingTab" method="lists" default="All" label="Lists checked by default" description="The selected lists will be checked by default on your CB Registration Form. This option does only apply to visible lists as hidden lists will be always checked." />
+			<param name="listsprofile" type="custom" class="getAcyMailingTab" method="lists" default="All" label="Lists displayed on the user profile" description="The following selected lists will be displayed on the CB User profile" />
+
+			<param name="display_html" type="radio" default="1" label="Display Receive HTML/Text on registration" description="Select yes if you want to give to the user the choice to receive the HTML or the Text version of all your e-mails.">
+				<option value="0">_UE_NO</option>
+				<option value="1">_UE_YES</option>
+			</param>
+			<param name="display_htmlprofile" type="radio" default="1" label="Display Receive HTML/Text on user profile" description="Select yes if you want to give to the user the choice to receive the HTML or the Text version of all your e-mails.">
+				<option value="0">_UE_NO</option>
+				<option value="1">_UE_YES</option>
+			</param>
+			<param name="addoverlay" type="radio" default="0" label="Description as an overlay" description="Add the description of each visible list as an overlay of the list name. Be careful, you might have conflicts using this option if you have some flash elements on your website.">
+				<option value="0">_UE_NO</option>
+				<option value="1">_UE_YES</option>
+			</param>
+			<param name="subcaption" type="text" default="" label="Subscribe Caption" description="Text displayed for the subscription field. If you don't specify anything, the default value will be used from the current language file" />
+			<param name="introtext" type="textarea" rows="5" cols="35" default="" label="Intro Text" description="This text will be displayed on the profile page before the form inside a div class=acymailing_introtext" />
+	</params>
+	<tabs>
+		<tab name="Подписка" description="Enables the user to manage his subscription to the AcyMailing Mailing Lists" class="getAcyMailingTab" fields="0" position="cb_tabmain" displaytype="tab">
+			<params>
+			</params>
+			<fields>
+			</fields>
+		</tab>
+	</tabs>
+	<install>
+		<queries>
+		</queries>
+	</install>
+	<uninstall>
+		<queries>
+		</queries>
+	</uninstall>
+	 <database>
+	</database>
+</cbinstall>

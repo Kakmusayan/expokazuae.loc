@@ -1,0 +1,183 @@
+// Import Mixin
+@import "mixins";
+
+
+.parallax-slider{
+	width: 100%;
+	position: relative;
+	overflow: hidden;
+    .transition(background-position 1.4s ease-in-out 0.3s);
+}
+.ps-slide{
+	position: absolute;
+	width: 100%;
+	height: 100%;
+	top: 0px;
+	left: 0px;
+	text-align: center;
+
+    .ps-title,
+    .ps-intro,
+    .ps-readmore {
+  	    opacity: 0;
+        .transition(all 0.8s ease-in-out);
+    }
+    .ps-title{
+        white-space: normal;
+        z-index: 10;
+        font-size: 45px;
+        font-weight: normal;
+        a {}
+    }
+    .ps-intro{
+        line-height: 26px;
+    }
+    .ps-image{
+        margin-top: 20px;
+        opacity: 0;
+        .transition(all 0.6s ease-in-out);
+        .scale(1);
+    }
+    .ps-readmore{
+        min-width: 90px;
+        max-width: 120px;
+    }
+    .ps-readmore:hover{
+        //background-color: #fff;
+    }
+}
+.ps-slide-current{
+	z-index: 10;
+}
+.ps-slider-fb .ps-slide{
+	left: 100%;
+}
+.ps-slider-fb  .ps-slide.ps-slide-current{
+	left: 0px;
+}
+
+.ps-slider-fb{
+  .ps-slide .ps-title,
+  .ps-slide .ps-intro,
+  .ps-slide .ps-readmore{
+  	  left: 3%;
+  	  opacity: 1;
+  }
+  .ps-slide .ps-image{
+  	  left: 60%;
+  	  opacity: 1;
+  }
+}
+
+.ps-arrows{
+	-moz-user-select: none;
+	-webkit-user-select: none;
+
+    span{
+        position: absolute;
+        top: 42%;
+        height: 74px;
+        width: 74px;
+        cursor: pointer;
+        z-index: 10;
+        .transition(opacity 0.4s ease-in-out 0.2s);
+
+        &.ps-arrows-prev { background: url(../images/simplex-arrow-left.png) no-repeat 0 0; left: 0; }
+        &.ps-arrows-next { background: url(../images/simplex-arrow-right.png) no-repeat 0 0; right: 0; }
+    }
+}
+
+.parallax-slider:hover .ps-arrows span{
+	opacity: 1;
+}
+
+.ps-slide-current .ps-title,
+.ps-slide-current .ps-intro,
+.ps-slide-current .ps-readmore{
+	opacity: 1;
+}
+.ps-slide-current .ps-image{
+	opacity: 1;
+}
+.ps-dots{
+    width: 100%;
+    position: absolute;
+    text-align: center;
+    bottom: 0px;
+    z-index: 2000;
+    display: none;
+    -moz-user-select: none;
+    -webkit-user-select: none;
+
+    span{
+        display: inline-block;
+        position: relative;
+        width: 17px;
+        height: 17px;
+        background: url(../images/navigator.png) no-repeat -1px 0;
+        margin: 3px;
+        cursor: pointer;
+    }
+    span:hover{
+        background-position: -1px -17px;
+    }
+    span.ps-dots-current{
+        background-position: -1px -37px;
+    }
+}
+
+/* Animation classes and animations */
+/* Slide in from the right*/
+.ps-slide-fromright .ps-title{
+    opacity: 1;
+}
+.ps-slide-fromright .ps-intro{
+    opacity: 1;
+}
+.ps-slide-fromright .ps-readmore{
+    opacity: 1;
+}
+.ps-slide-fromright .ps-image{
+    .scale(1);
+}
+
+/* Slide in from the left*/
+.ps-slide-fromleft .ps-title{
+    opacity: 1;
+}
+.ps-slide-fromleft .ps-intro{
+    opacity: 1;
+}
+.ps-slide-fromleft .ps-readmore{
+    opacity: 1;
+}
+.ps-slide-fromleft .ps-image{
+    .scale(1);
+}
+
+/* Slide out to the right */
+.ps-slide-toright .ps-title{
+    opacity: 0;
+}
+.ps-slide-toright .ps-intro{
+    opacity: 0;
+}
+.ps-slide-toright .ps-readmore{
+    opacity: 0;
+}
+.ps-slide-toright .ps-image{
+    .scale(2);
+}
+/* Slide out to the left*/
+.ps-slide-toleft .ps-title{
+    opacity: 0;
+}
+.ps-slide-toleft .ps-intro{
+    opacity: 0;
+}
+.ps-slide-toleft .ps-readmore{
+    opacity: 0;
+}
+.ps-slide-toleft .ps-image{
+    .scale(2);
+}

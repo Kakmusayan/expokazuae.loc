@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<extension type="package" version="2.5">
+	<name>Kazakh Language Pack</name>
+	<packagename>kz-KZ</packagename>
+	<version>2.5.1.1</version>
+	<url>http://joomlaforum.kz</url>
+	<packager>Kazakh Translation Team | Mukazhan Dastan | seer.dastan@gmail.com</packager>
+	<packagerurl>http://joomlaforum.kz</packagerurl>
+	<description>Joomla 2.5 контент басқару жүйесіне арналған қазақ тілі пакеті</description>
+	<files>
+	        <file type="language" client="site" id="kz-KZ">site_kz-KZ.zip</file>
+   	</files>
+	
+</extension>

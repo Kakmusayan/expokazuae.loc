@@ -1,0 +1,231 @@
+// Import animation less
+@import 'animation.less';
+
+/*Import Responsive css*/
+@import "responsive.less";
+
+.parallax-slider{
+	width: 100%;
+	position: relative;
+	overflow: hidden;
+	-webkit-transition: background-position 1.4s ease-in-out 0.3s;
+	-moz-transition: background-position 1.4s ease-in-out 0.3s;
+	-o-transition: background-position 1.4s ease-in-out 0.3s;
+	-ms-transition: background-position 1.4s ease-in-out 0.3s;
+	transition: background-position 1.4s ease-in-out 0.3s;
+}
+.ps-slide{
+	position: absolute;
+	width: 100%;
+	height: 100%;
+	top: 0px;
+	left: 0px;
+	text-align: left;
+
+    .ps-title,
+    .ps-intro,
+    .ps-readmore,
+    .ps-image{
+  	    position: absolute;
+  	    opacity: 0;
+  	    left: 110%;
+    }
+    .ps-title{
+        width: 50%;
+        top: 10px;
+        white-space: normal;
+        z-index: 10;
+        text-shadow: 1px 1px 1px rgba(0,0,0,0.1);
+        font-weight: 700;
+    }
+    .ps-intro{
+        width: 47%;
+        top: 120px;
+        line-height: 26px;
+    }
+    .ps-image{
+        text-align: center;
+        width: 40%;
+        top: 30px;
+        left: 110%; /*60%*/
+    }
+    .ps-readmore{
+        top: 260px;
+        min-width: 90px;
+        max-width: 120px;
+    }
+    .ps-readmore:hover{
+        //background-color: #fff;
+    }
+}
+.ps-slide-current{
+	z-index: 10;
+}
+.ps-slider-fb .ps-slide{
+	left: 100%;
+}
+.ps-slider-fb  .ps-slide.ps-slide-current{
+	left: 0px;
+}
+
+.ps-slider-fb{
+  .ps-slide .ps-title,
+  .ps-slide .ps-intro,
+  .ps-slide .ps-readmore{
+  	  left: 3%;
+  	  opacity: 1;
+  }
+  .ps-slide .ps-image{
+  	  left: 60%;
+  	  opacity: 1;
+  }
+}
+
+.ps-arrows{
+	-moz-user-select: none;
+	-webkit-user-select: none;
+
+    span{
+        position: absolute;
+        top: 50%;
+        height: 30px;
+        width: 30px;
+        border-radius: 50%;
+        background: #eee;
+        cursor: pointer;
+        z-index: 2000;
+        opacity: 0;
+        box-shadow:
+            1px 1px 1px rgba(0,0,0,0.1) inset,
+            1px 1px 1px rgba(255,255,255,0.1);
+        -webkit-transition: opacity 0.4s ease-in-out 0.2s;
+        -moz-transition: opacity 0.4s ease-in-out 0.2s;
+        -o-transition: opacity 0.4s ease-in-out 0.2s;
+        -ms-transition: opacity 0.4s ease-in-out 0.2s;
+        transition: opacity 0.4s ease-in-out 0.2s;
+
+        &:after{
+            content: '';
+            position: absolute;
+            width: 20px;
+            height: 20px;
+            top: 5px;
+            left: 5px;
+            background: transparent url(../images/arrows.png) no-repeat top left;
+            border-radius: 50%;
+            box-shadow: 1px 1px 2px rgba(0,0,0,0.1);
+        }
+        &:hover:after{
+          box-shadow: 1px 1px 4px rgba(0,0,0,0.3);
+        }
+        &:active:after{
+          box-shadow: 1px 1px 1px rgba(255,255,255,0.1);
+        }
+        &.ps-arrows-next:after{
+          background-position: top right;
+        }
+        &.ps-arrows-prev{
+          left: 15px;
+        }
+        &.ps-arrows-next{
+          right: 15px;
+        }
+    }
+}
+
+.parallax-slider:hover .ps-arrows span{
+	opacity: 1;
+}
+
+.ps-slide-current .ps-title,
+.ps-slide-current .ps-intro,
+.ps-slide-current .ps-readmore{
+	left: 3%;
+	opacity: 1;
+}
+.ps-slide-current .ps-image{
+	left: 60%;
+	opacity: 1;
+}
+.ps-dots{
+    width: 100%;
+    position: absolute;
+    text-align: center;
+    left: 0px;
+    bottom: 0px;
+    z-index: 2000;
+    -moz-user-select: none;
+    -webkit-user-select: none;
+
+    span{
+        display: inline-block;
+        position: relative;
+        width: 17px;
+        height: 17px;
+        background: url(../images/navigator.png) no-repeat -1px 0;
+        margin: 3px;
+        cursor: pointer;
+    }
+    span:hover{
+        background-position: -1px -17px;
+    }
+    span.ps-dots-current{
+        background-position: -1px -37px;
+    }
+}
+
+/* Animation classes and animations */
+/* Slide in from the right*/
+.ps-slide-fromright .ps-title{
+  .animation(fromRightAnim1 0.6s ease-in 0.8s both);
+}
+.ps-slide-fromright .ps-intro{
+    .animation(fromRightAnim2 0.6s ease-in 1s both);
+}
+.ps-slide-fromright .ps-readmore{
+    .animation(fromRightAnim3 0.7s ease-in 1.5s both);
+}
+.ps-slide-fromright .ps-image{
+    .animation(fromRightAnim4 1s ease-in 1.2s both);
+}
+
+/* Slide in from the left*/
+.ps-slide-fromleft .ps-title{
+    .animation(fromLeftAnim1 0.6s ease-in 0.8s both);
+}
+.ps-slide-fromleft .ps-intro{
+    .animation(fromLeftAnim2 0.6s ease-in 1s both);
+}
+.ps-slide-fromleft .ps-readmore{
+    .animation(fromLeftAnim3 0.7s ease-in 1.5s both);
+}
+.ps-slide-fromleft .ps-image{
+  .animation(fromLeftAnim4 1s ease-in 1.2s both);
+}
+
+/* Slide out to the right */
+.ps-slide-toright .ps-title{
+    .animation(toRightAnim1 0.6s ease-in 0.6s both);
+}
+.ps-slide-toright .ps-intro{
+    .animation(toRightAnim2 0.6s ease-in 0.3s both);
+}
+.ps-slide-toright .ps-readmore{
+    .animation(toRightAnim3 0.4s ease-in both);
+}
+.ps-slide-toright .ps-image{
+    .animation(toRightAnim4 1s ease-in both);
+}
+/* Slide out to the left*/
+.ps-slide-toleft .ps-title{
+    .animation(toLeftAnim1 0.6s ease-in both);
+}
+.ps-slide-toleft .ps-intro{
+    .animation(toLeftAnim2 0.6s ease-in 0.3s both);
+}
+.ps-slide-toleft .ps-readmore{
+    .animation(toLeftAnim3 0.4s ease-in both);
+}
+.ps-slide-toleft .ps-image{
+    .animation(toLeftAnim4 1s ease-in 0.6s both);
+}

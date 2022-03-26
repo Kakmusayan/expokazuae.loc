@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<cbinstall version="1.0" type="plugin" group="language">
+	<name>CB GroupJive en-GB</name>
+	<creationDate>2012-12-03</creationDate>
+	<author>Kyle (aka Krileon)</author>
+	<authorEmail>krileon@joomlapolis.com</authorEmail>
+	<copyright>(C) 2008-2012 joomlapolis.com</copyright>
+	<license>http://www.gnu.org/licenses/gpl.html GNU/GPL</license>
+	<authorUrl>http://www.joomlapolis.com</authorUrl>
+	<version>1.8</version>
+	<description>Provides the English language for CB GroupJive plugin.</description>
+	<release>2.6.1</release>
+	<files>
+		<filename plugin="cbgroupjive_language">language.php</filename>
+		<filename>integrations_language.php</filename>
+		<filename>admin_language.php</filename>
+		<filename>index.html</filename>
+	</files>
+    <params>
+    </params>
+	<database>
+	</database>
+</cbinstall>

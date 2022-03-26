@@ -1,0 +1,48 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<extension version="2.5" type="plugin" group="content" method="upgrade">
+	<name>Content - Community Builder</name>
+	<creationDate>2012-12-17</creationDate>
+	<author>Kyle (aka Krileon)</author>
+	<authorEmail>krileon@joomlapolis.com</authorEmail>
+	<authorUrl>http://forge.joomlapolis.com/projects/cb-cbcontentbot</authorUrl>
+	<copyright>(C) 2008-2012 Joomlapolis</copyright>
+	<license>http://www.gnu.org/licenses/gpl.html GNU/GPL</license>
+	<version>2.1.1</version>
+	<description>This plugin allows tabs, fields, and more to be displayed within content items using Community Builder substitutions. Format: {cb:[substitution]}.</description>
+	<files>
+		<filename plugin="cbcontentbot">cbcontentbot.php</filename>
+		<filename>index.html</filename>
+	</files>
+	<config>
+		<fields name="params">
+			<fieldset name="basic">
+				<field name="user" type="list" default="0" label="User" description="Select the user to use for substitutions (e.g. [username]).">
+					<option value="0">Viewer</option>
+					<option value="1">Author</option>
+				</field>
+			</fieldset>
+			<fieldset name="advanced">
+				<field name="css" type="textarea" filter="raw" cols="60" rows="12" default="" label="CSS" description="Optionally input CSS to be added to page header (e.g. body { background-color: red; })." />
+				<field name="js" type="textarea" filter="raw" cols="60" rows="12" default="" label="Javascript" description="Optionally input Javascript to be added to page header (e.g. alert( 'Hello World!' );)" />
+				<field name="jquery" type="textarea" filter="raw" cols="60" rows="12" default="" label="jQuery" description="Optionally input jQuery to be added to page header (e.g. $( 'body' ).prepend( '&lt;div&gt;Hello World!&lt;/div&gt;' );)." />
+				<field name="jquery_plgs" type="text" size="40" default="" label="jQuery Plugins" description="Optionally input comma seperated list of CB jQuery plugins to load in header with jQuery (e.g. ui-all,validate)." />
+				<field name="load_tpl" type="list" default="0" label="Load Template" description="Enable or disable loading of CB template on content. This will load in CSS to allow styling to properly occur for CB substitutions.">
+					<option value="0">Disable</option>
+					<option value="1">Enable</option>
+				</field>
+				<field name="load_js" type="list" default="0" label="Load JS" description="Enable or disable loading of CB javascript on content.">
+					<option value="0">Disable</option>
+					<option value="1">Enable</option>
+				</field>
+				<field name="load_lang" type="list" default="1" label="Load Lanugage" description="Enable or disable loading of CB language on content. This will allow proper translation of substitutions.">
+					<option value="0">Disable</option>
+					<option value="1">Enable</option>
+				</field>
+				<field name="load_plgs" type="list" default="0" label="Load Plugins" description="Enable or disable loading of CB plugins on content.">
+					<option value="0">Disable</option>
+					<option value="1">Enable</option>
+				</field>
+			</fieldset>
+		</fields>
+	</config>
+</extension>

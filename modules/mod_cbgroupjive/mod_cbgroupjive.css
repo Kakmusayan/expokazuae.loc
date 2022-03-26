@@ -1,0 +1,43 @@
+.cbGroupJiveModule img {
+	max-width: 60px;
+}
+
+.gjLatestCategoriesV .gjLatestCategory,
+.gjPopularCategoriesV .gjPopularCategory,
+.gjLatestGroupsV .gjLatestGroup,
+.gjPopularGroupsV .gjPopularGroup,
+.gjMyCategoriesV .gjMyCategory,
+.gjMyGroupsV .gjMyGroup,
+.gjJoinedGroupsV .gjJoinedGroup,
+.gjInvitedToV .gjInvitedTo,
+.gjIntPhotosV .gjIntPhoto,
+.gjIntVideosV .gjIntVideo,
+.gjIntFilesV .gjIntFile {
+	text-align: center;
+	margin: 5px;
+}
+
+.gjLatestCategoriesH .gjLatestCategory,
+.gjPopularCategoriesH .gjPopularCategory,
+.gjLatestGroupsH .gjLatestGroup,
+.gjPopularGroupsH .gjPopularGroup,
+.gjMyCategoriesH .gjMyCategory,
+.gjMyGroupsH .gjMyGroup,
+.gjJoinedGroupsH .gjJoinedGroup,
+.gjInvitedToH .gjInvitedTo,
+.gjIntPhotosH .gjIntPhoto,
+.gjIntVideosH .gjIntVideo,
+.gjIntFilesH .gjIntFile {
+	text-align: center;
+	margin: 5px;
+	display: inline-block;
+	vertical-align: top;
+}
+
+.gjIntWallPostsV .gjIntWallPost,
+.gjIntWallPostsH .gjIntWallPost,
+.gjIntEventsV .gjIntEvent,
+.gjIntEventsH .gjIntEvent {
+	text-align: left;
+	margin-bottom: 5px;
+}

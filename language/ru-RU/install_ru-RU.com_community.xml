@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<extension version="3.1" client="site" type="language" method="upgrade">
+	<name>JomSocial Russian Frontend</name>
+	<tag>ru-RU</tag>
+	<version>3.0.5.1</version>
+	<creationDate>2013-10-26</creationDate>
+	<author>kharol</author>
+	<authorEmail>info@joomlasocial.ru</authorEmail>
+	<authorUrl>www.joomlasocial.ru</authorUrl>
+	<copyright>Copyright (C) 2009 - 2013 Open Source Matters. Все права защищены</copyright>
+	<license>GNU General Public License version 2 or later; see LICENSE.txt</license>
+	<description>Russian language pack for JomSocial 3.0.5.1(Frontend)</description>
+	<files>
+		<filename>ru-RU.com_community.ini</filename>
+		<filename>ru-RU.com_community.country.ini</filename>
+		<filename>ru-RU.mod_activegroups.ini</filename>
+		<filename>ru-RU.mod_datingsearch.ini</filename>
+		<filename>ru-RU.mod_hellome.ini</filename>
+		<filename>ru-RU.mod_latestdiscussion.ini</filename>
+		<filename>ru-RU.mod_latestgrouppost.ini</filename>
+		<filename>ru-RU.mod_latestgrouppost.sys.ini</filename>
+		<filename>ru-RU.mod_latestmembers.ini</filename>
+		<filename>ru-RU.mod_notify.ini</filename>
+		<filename>ru-RU.mod_onlineusers.ini</filename>
+		<filename>ru-RU.mod_photocomments.ini</filename>
+		<filename>ru-RU.mod_statistics.ini</filename>
+		<filename>ru-RU.mod_topmembers.ini</filename>
+		<filename>ru-RU.mod_videocomments.ini</filename>
+		<filename file="meta">install_ru-RU.com_community.xml</filename>
+      </files>
+</extension>

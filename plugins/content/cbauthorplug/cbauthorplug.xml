@@ -1,0 +1,58 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!DOCTYPE install PUBLIC "-//Joomla! 1.5//DTD plugin 1.0//EN" "http://dev.joomla.org/xml/1.5/plugin-install.dtd">
+<install type="plugin" version="1.5.0" group="content">
+  <name>Content - CBAuthorPlug</name>
+  <creationDate>22-November-2010</creationDate>
+  <author>Tony Korologos TKServer.com</author>
+  <authorEmail>admin@tkserver.com</authorEmail>
+  <authorUrl>http://www.tkserver.com</authorUrl>
+  <copyright>2010</copyright>
+  <license>GNPL</license>
+  <version>1.2</version>
+  <description>Plugin which displays Community Builder link and/or avatar of author in Joomla content. Visit TKServer.com for support, more info and other useful Joomla systems.  Text color adjustments are standard CSS codes: e.g. #000000 equals black, #DDDDDD equals gray.  CSS text codes for colors will also work: Black, Red, Silver, Maroon, Green etc.</description>
+  <files folder="site">
+    <filename plugin="cbauthorplug">cbauthorplug.php</filename>
+  </files>  
+  <params>
+		<param name="showname" type="list" label="Show name or username" default="name" description="Select wether to show name or username">
+			<option value="name">Name</option>
+			<option value="username">Username</option>
+		</param>
+		<param name="disablejauthor" type="list" default="yes" label="Replace J!Author with CB Author" description="Select wether to replace joomla author with CB author, and respect Joomla author show/hide article settings">
+			<option value="yes">Yes</option>
+			<option value="no">No</option>
+		</param>	
+		<param name="showfrontpage" type="list" default="yes" label="Show on front page articles" description="Select wether or not to show plugin on front page articles">
+			<option value="yes">Yes</option>
+			<option value="no">No</option>
+		</param>
+		<param name="displayposition" type="list" default="Before" label="Display before or after content" description="Display before or after content">
+			<option value="Before">Before</option>
+			<option value="After">After</option>
+		</param>
+		<param name="introtext" type="text" size="20" default="" label="Text before name" description="Text to show before name" />
+		<param name="outrotext" type="text" size="20" default="" label="Text after name" description="Text to show after name" />
+		<param name="exclude_authors" type="text" size="20" default="" label="Exclude authors" description="Enter user IDs separated by commas. Example: 62,75,103" />
+		<param name="exclude_secs" type="text" size="20" default="" label="Exclude sections" description="Enter section IDs separated by commas. Example: 62,75,103" />
+		<param name="exclude_cats" type="text" size="20" default="" label="Exclude categories" description="Enter category IDs separated by commas. Example: 62,75,103" />
+		<param name="textfloat" type="list" label="Text float left or right" default="none" description="Text float none or left or right">
+			<option value="none">None</option>
+			<option value="left">Left</option>
+			<option value="right">right</option>
+		</param>
+		<param name="showavatar" type="list" default="1" label="Show Avatar" description="Select wether to show avatar">
+			<option value="1">Yes</option>
+			<option value="0">No</option>
+		</param>
+		<param name="avatarwidth" type="text" size="3" default="20" label="Avatar Width In Pixels" description="Avatar width in pixels" />
+		<param name="avatarfloat" type="list" label="Avatar float left or right" default="left" description="Avatar float left or right">
+			<option value="left">Left</option>
+			<option value="right">right</option>
+		</param>
+		<param name="avatarmarginleft" type="text" size="3" default="5" label="Avatar Margin Left" description="Avatar Left Margin (spacing)" />
+		<param name="avatarmarginright" type="text" size="3" default="5" label="Avatar Margin Right" description="Avatar Right Margin (spacing)" />
+		<param name="fontsize" type="text" size="3" default="10" label="Font Size In Pixels" description="Font Size In Pixels" />
+		<param name="textcolor" type="text" size="10" default="#CCCCCC" label="Text CSS Color Code" description="Font CSS Color" />
+		<param name="linkcolor" type="text" size="10" default="#CC0000" label="Text Link CSS Color Code" description="Link CSS Color" />
+	</params>
+</install>

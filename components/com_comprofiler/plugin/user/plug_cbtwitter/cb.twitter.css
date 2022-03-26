@@ -1,0 +1,99 @@
+.twitter_button_bg {
+	background-image: url(images/bg.png);
+	background-repeat: repeat-x;
+	background-position: 0px 0px;
+	margin-top: 2px;
+	margin-bottom: 2px;
+	height: 21px;
+	min-width: 90px;
+	display: inline-block;
+}
+
+.twitter_button {
+	background-image: url(images/icon.png);
+	background-repeat: no-repeat;
+	background-position: 0px 0px;
+	cursor: pointer;
+	height: 21px;
+	width: 100%;
+	border-width: 0px;
+	color: white;
+	font-size: 10px;
+	font-weight: bold;
+	text-indent: 20px;
+	background-color: transparent;
+}
+
+.twitter_button_small {
+	background-image: url(images/icon.png);
+	background-repeat: no-repeat;
+	background-position: 0px 0px;
+	cursor: pointer;
+	height: 19px;
+	width: 19px;
+	margin-left: 2px;
+	margin-right: 2px;
+	border-width: 0px;
+}
+
+.cbtwitter .twitterButton {
+	padding: 2px 4px 3px;
+	color: #FFFFFF;
+	cursor: pointer;
+	background-color: #4F6AA3;
+	border-color: #29447E;
+	font-weight: bold;
+	border-width: 1px;
+	border-style: solid;
+}
+
+.cbtwitter .twitterButton:active {
+	background-color: #29447E;
+}
+
+.cbtwitter .twitterEditTitle {
+	background: #F2F2F2;
+	border-color: #C0C0C0 #E7E7E7 #E7E7E7;
+	border-style: solid;
+	border-width: 1px;
+	padding: 4px 6px;
+	margin-bottom: 5px;
+	font-weight: bold;
+}
+
+.cbtwitter .twitterEditContent {
+	padding: 5px;
+	border: 1px solid #D7D7D7;
+	margin-bottom: 5px;
+}
+
+.cbtwitter .twitterEditContentInput {
+	padding-top: 3px;
+	padding-bottom: 3px;
+}
+
+.cbtwitter .twitterEditContentInputTitle {
+	vertical-align: top;
+	display: inline-block;
+	width: 25%;
+	font-weight: bold;
+}
+
+.cbtwitter .twitterEditContentInputField {
+	vertical-align: top;
+	display: inline-block;
+	width: 75%;
+}
+
+.cbtwitter .twitterValidationInput {
+	border: 1px solid red;
+}
+
+.cbtwitter .twitterValidationError {
+	margin-top: 5px;
+	padding: 5px 5px 5px 5px;
+	border: 1px solid #883300;
+	color: #dd7700;
+	font-weight: bold;
+	width: 50%;
+}

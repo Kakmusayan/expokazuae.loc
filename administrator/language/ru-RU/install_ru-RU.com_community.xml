@@ -1,0 +1,63 @@
+<?xml version="1.0" encoding="utf-8"?>
+<extension version="3.1" client="administrator" type="language" method="upgrade">
+  <name>JomSocial Russian Backend</name>
+  <tag>ru-RU</tag>
+  <version>3.0.5.1</version>
+  <creationDate>2013-10-26</creationDate>
+  <author>Kharol</author>
+  <authorUrl>http://www.joomlasocial.ru</authorUrl>
+  <authorEmail>info@joomlasocial.ru</authorEmail>
+  <copyright>Copyright (C) 2009 - 2013 Open Source Matters. All rights reserved</copyright>
+  <copyright>Copyright (C) Russian Translation 2009 - 2013. Все права защищены.</copyright>
+  <license>GNU General Public License version 2 or later; see LICENSE.txt</license>
+  <description>Перевод административной части компонента JomSocial 3.0.5.1, модулей и плагинов, поставляемых в комплекте</description>   
+
+  <files>
+		<filename>ru-RU.com_community.ini</filename>
+		<filename>ru-RU.com_community.menu.ini</filename>
+		<filename>ru-RU.com_community.sys.ini</filename>
+		<filename>ru-RU.plg_community_allvideo.ini</filename>
+		<filename>ru-RU.plg_community_allvideo.sys.ini</filename>
+		<filename>ru-RU.plg_community_editormyphotos.ini</filename>
+		<filename>ru-RU.plg_community_editormyphotos.sys.ini</filename>
+		<filename>ru-RU.plg_community_events.ini</filename>
+		<filename>ru-RU.plg_community_events.sys.ini</filename>
+		<filename>ru-RU.plg_community_feeds.ini</filename>
+		<filename>ru-RU.plg_community_feeds.sys.ini</filename>
+		<filename>ru-RU.plg_community_friendslocation.ini</filename>
+		<filename>ru-RU.plg_community_friendslocation.sys.ini</filename>
+		<filename>ru-RU.plg_community_input.ini</filename>
+		<filename>ru-RU.plg_community_input.sys.ini</filename>
+		<filename>ru-RU.plg_community_invite.ini</filename>
+		<filename>ru-RU.plg_community_invite.sys.ini</filename>
+		<filename>ru-RU.plg_community_kunena.ini</filename>
+		<filename>ru-RU.plg_community_kunena.sys.ini</filename>
+		<filename>ru-RU.plg_community_latestphoto.ini</filename>
+		<filename>ru-RU.plg_community_latestphoto.sys.ini</filename>
+		<filename>ru-RU.plg_community_myarticles.ini</filename>
+		<filename>ru-RU.plg_community_myarticles.ini</filename>
+		<filename>ru-RU.plg_community_mycontacts.ini</filename>
+		<filename>ru-RU.plg_community_mycontacts.sys.ini</filename>
+		<filename>ru-RU.plg_community_mygoogleads.ini</filename>
+		<filename>ru-RU.plg_community_mygoogleads.sys.ini</filename>
+		<filename>ru-RU.plg_community_mytaggedvideos.ini</filename>
+		<filename>ru-RU.plg_community_mytaggedvideos.sys.ini</filename>		
+		<filename>ru-RU.plg_community_myvideos.ini</filename>
+		<filename>ru-RU.plg_community_myvideos.sys.ini</filename>
+		<filename>ru-RU.plg_community_twitter.ini</filename>
+		<filename>ru-RU.plg_community_twitter.sys.ini</filename>
+		<filename>ru-RU.plg_community_walls.ini</filename>
+		<filename>ru-RU.plg_community_walls.sys.ini</filename>
+		<filename>ru-RU.plg_community_wordfilter.ini</filename>
+		<filename>ru-RU.plg_community_wordfilter.sys.ini</filename>
+		<filename>ru-RU.plg_groups.ini</filename>
+		<filename>ru-RU.plg_system_jomsocialconnect.ini</filename>
+		<filename>ru-RU.plg_system_jomsocialconnect.sys.ini</filename>
+		<filename>ru-RU.plg_system_jomsocialredirect.ini</filename>
+		<filename>ru-RU.plg_system_jomsocialupdate.ini</filename>
+		<filename>ru-RU.plg_system_jomsocialupdate.sys.ini</filename>
+		<filename>ru-RU.plg_user_jomsocialuser.ini</filename>
+		<filename>ru-RU.plg_user_jomsocialuser.sys.ini</filename>
+		<filename file="meta">install_ru-RU.com_community.xml</filename>
+      </files>
+</extension>

@@ -1,0 +1,48 @@
+﻿<?xml version="1.0" encoding="UTF-8" ?>
+<extension type="package" version="3.1">
+	<packagename>community_ru-RU</packagename>
+	<name>JomSocial Russian language Pack</name>
+	<version>3.0.5.1</version>
+	<url>www.joomlasocial.ru</url>
+	<packager>Kharol</packager>
+	<packagerurl>joomlasocial.ru</packagerurl>
+	<author>www.joomlasocial.ru</author>
+	<authorEmail>info@joomlasocial.ru</authorEmail>
+	<authorUrl>Kharol</authorUrl>
+    <creationDate>2013-10-26</creationDate>
+	<copyright>Copyright (C) 2011 JoomlaSocial.ru. Все права защищены.</copyright>
+    <license>GNU General Public License version 2 or later; see LICENSE.txt</license>
+	<description><![CDATA[
+	<link rel="stylesheet" href="http://joomlasocial.ru/translations_3/assets/backend.css" type="text/css">	
+<div class="bs-docs-example">
+<a href="http://joomlasocial.ru" alt="Российская поддержка компонента JomSocial" >
+<img style="margin-right: 10px; margin-bottom: 2px; float: left;" alt="Application for online notification for JomSocial" src="http://joomlasocial.ru/translations_3/assets/js_translation_banner.png">
+</a>
+<h4 class="alert-heading">ABOUT JOMSOCIAL FULL RUSSIAN TRANSLATION:</h4>
+ <br/> Language pack for JomSocial 3.0.5.1
+ <br/>Полная локализация файлов для компонента социальной сети JomSocial линейки 3.0.x.
+ <br/> <br/> <hr>
+ Version: 3.0.5.1 - 26 October, 2013
+ <br/> License: GNU/GPL | &copy; All right Reserved. JoomlaSocial.ru
+ <br/> <b>Tranlated by kharol on joomlasocial.ru | Especially for joomlaSocial.ru & joomlaForum.ru members</b>
+ <br/> 
+ <br/> 
+
+<div class="alert alert-success">
+<h4 class="alert-heading">В комплект перевода входят следующие файлы локализации:</h4>
+ <br/> » Перевод административной части JomSocial (backend)
+ <br/> » Перевод фронтальной части JomSocial (frontend)
+ <br/> » Перевод языковых файлов модулей JomSocial
+ <br/> » Перевод языковых файлов плагинов JomSocial 
+ </div>
+</div>
+]]></description>
+
+    <files>
+        <file type="language" client="site" id="ru-RU">site_community_ru-RU.zip</file>
+		<file type="language" client="administrator" id="ru-RU">admin_community_ru-RU.zip</file>
+    </files>
+<updateservers>
+  <server type="collection" priority="1" name="JomSocial Russian Translations">http://joomlasocial.ru/translations_3/translationlist_3.xml</server>
+</updateservers>
+</extension>

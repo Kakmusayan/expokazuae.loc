@@ -1,0 +1,236 @@
+[18-Mar-2014 11:07:32 America/Denver] PHP Notice:  Constant DS already defined in /home4/tauhidli/public_html/expokazuae/modules/mod_junewsultra/mod_junewsultra.php on line 11
+[18-Mar-2014 11:07:32 America/Denver] PHP Fatal error:  Call-time pass-by-reference has been removed in /home4/tauhidli/public_html/expokazuae/modules/mod_junewsultra/helper.php on line 430
+[18-Mar-2014 11:07:36 America/Denver] PHP Notice:  Constant DS already defined in /home4/tauhidli/public_html/expokazuae/modules/mod_junewsultra/mod_junewsultra.php on line 11
+[18-Mar-2014 11:07:36 America/Denver] PHP Fatal error:  Call-time pass-by-reference has been removed in /home4/tauhidli/public_html/expokazuae/modules/mod_junewsultra/helper.php on line 430
+[18-Mar-2014 11:07:37 America/Denver] PHP Notice:  Constant DS already defined in /home4/tauhidli/public_html/expokazuae/modules/mod_junewsultra/mod_junewsultra.php on line 11
+[18-Mar-2014 11:07:37 America/Denver] PHP Fatal error:  Call-time pass-by-reference has been removed in /home4/tauhidli/public_html/expokazuae/modules/mod_junewsultra/helper.php on line 430
+[18-Mar-2014 11:07:38 America/Denver] PHP Notice:  Constant DS already defined in /home4/tauhidli/public_html/expokazuae/modules/mod_junewsultra/mod_junewsultra.php on line 11
+[18-Mar-2014 11:07:38 America/Denver] PHP Fatal error:  Call-time pass-by-reference has been removed in /home4/tauhidli/public_html/expokazuae/modules/mod_junewsultra/helper.php on line 430
+[18-Mar-2014 11:07:59 America/Denver] PHP Notice:  Constant DS already defined in /home4/tauhidli/public_html/expokazuae/modules/mod_junewsultra/mod_junewsultra.php on line 11
+[18-Mar-2014 11:07:59 America/Denver] PHP Fatal error:  Call-time pass-by-reference has been removed in /home4/tauhidli/public_html/expokazuae/modules/mod_junewsultra/helper.php on line 430
+[18-Mar-2014 11:08:08 America/Denver] PHP Notice:  Constant DS already defined in /home4/tauhidli/public_html/expokazuae/modules/mod_junewsultra/mod_junewsultra.php on line 11
+[18-Mar-2014 11:08:08 America/Denver] PHP Fatal error:  Call-time pass-by-reference has been removed in /home4/tauhidli/public_html/expokazuae/modules/mod_junewsultra/helper.php on line 430
+[21-Mar-2014 23:50:02] PHP Warning:  sprintf() [<a href='function.sprintf'>function.sprintf</a>]: Too few arguments in /home4/tauhidli/public_html/expokazuae/libraries/joomla/methods.php on line 320
+[22-Mar-2014 00:31:20] PHP Warning:  Division by zero in /home4/tauhidli/public_html/expokazuae/libraries/joomla/crypt/crypt.php on line 209
+[22-Mar-2014 00:31:21] PHP Warning:  Division by zero in /home4/tauhidli/public_html/expokazuae/libraries/joomla/crypt/crypt.php on line 209
+[22-Mar-2014 00:31:22] PHP Warning:  Division by zero in /home4/tauhidli/public_html/expokazuae/libraries/joomla/crypt/crypt.php on line 209
+[22-Mar-2014 00:46:12] PHP Warning:  Division by zero in /home4/tauhidli/public_html/expokazuae/libraries/joomla/crypt/crypt.php on line 209
+[22-Mar-2014 00:47:41] PHP Warning:  Division by zero in /home4/tauhidli/public_html/expokazuae/libraries/joomla/crypt/crypt.php on line 209
+[22-Mar-2014 00:53:21] PHP Warning:  Division by zero in /home4/tauhidli/public_html/expokazuae/libraries/joomla/crypt/crypt.php on line 209
+[22-Mar-2014 00:53:33] PHP Warning:  Division by zero in /home4/tauhidli/public_html/expokazuae/libraries/joomla/crypt/crypt.php on line 209
+[22-Mar-2014 03:11:09] PHP Warning:  Division by zero in /home4/tauhidli/public_html/expokazuae/libraries/joomla/crypt/crypt.php on line 209
+[22-Mar-2014 03:11:49] PHP Warning:  Division by zero in /home4/tauhidli/public_html/expokazuae/libraries/joomla/crypt/crypt.php on line 209
+[22-Mar-2014 03:12:45] PHP Warning:  Division by zero in /home4/tauhidli/public_html/expokazuae/libraries/joomla/crypt/crypt.php on line 209
+[22-Mar-2014 03:13:36] PHP Warning:  Division by zero in /home4/tauhidli/public_html/expokazuae/libraries/joomla/crypt/crypt.php on line 209
+[22-Mar-2014 03:13:48] PHP Warning:  Division by zero in /home4/tauhidli/public_html/expokazuae/libraries/joomla/crypt/crypt.php on line 209
+[25-Mar-2014 06:37:56] PHP Parse error:  syntax error, unexpected T_STRING in /home4/tauhidli/public_html/expokazuae/templates/beez_20/index.php on line 1
+[25-Mar-2014 06:37:59] PHP Parse error:  syntax error, unexpected T_STRING in /home4/tauhidli/public_html/expokazuae/templates/beez_20/index.php on line 1
+[27-Mar-2014 12:53:20] PHP Warning:  Division by zero in /home4/tauhidli/public_html/expokazuae/libraries/joomla/crypt/crypt.php on line 209
+[30-Mar-2014 14:23:58] PHP Warning:  Invalid argument supplied for foreach() in /home4/tauhidli/public_html/expokazuae/components/com_finder/views/search/view.feed.php on line 76
+[05-Apr-2014 18:27:05] PHP Parse error:  syntax error, unexpected '"', expecting ')' in /home4/tauhidli/public_html/expokazuae/components/com_comprofiler/plugin/user/plug_cbmenu/cb.menu.php on line 479
+[05-Apr-2014 19:30:18] PHP Fatal error:  Class 'CBfield_text' not found in /home4/tauhidli/public_html/expokazuae/components/com_comprofiler/plugin/user/plug_cbvideofield/cbvideofield.php on line 9
+[06-Apr-2014 02:04:34] PHP Warning:  Invalid argument supplied for foreach() in /home4/tauhidli/public_html/expokazuae/components/com_finder/views/search/view.feed.php on line 76
+[06-Apr-2014 02:07:27] PHP Warning:  Invalid argument supplied for foreach() in /home4/tauhidli/public_html/expokazuae/components/com_finder/views/search/view.feed.php on line 76
+[15-Apr-2014 02:05:34] PHP Parse error:  syntax error, unexpected '.' in /home4/tauhidli/public_html/expokazuae/components/com_comprofiler/plugin/templates/bootstrap/bootstrap.php on line 82
+[15-Apr-2014 02:05:36] PHP Parse error:  syntax error, unexpected '.' in /home4/tauhidli/public_html/expokazuae/components/com_comprofiler/plugin/templates/bootstrap/bootstrap.php on line 82
+[15-Apr-2014 02:20:51] PHP Warning:  Unexpected character in input:  ''' (ASCII=39) state=1 in /home4/tauhidli/public_html/expokazuae/components/com_comprofiler/plugin/templates/bootstrap/bootstrap.php on line 87
+[15-Apr-2014 02:20:51] PHP Parse error:  syntax error, unexpected '<' in /home4/tauhidli/public_html/expokazuae/components/com_comprofiler/plugin/templates/bootstrap/bootstrap.php on line 87
+[15-Apr-2014 02:20:55] PHP Warning:  Unexpected character in input:  ''' (ASCII=39) state=1 in /home4/tauhidli/public_html/expokazuae/components/com_comprofiler/plugin/templates/bootstrap/bootstrap.php on line 87
+[15-Apr-2014 02:20:55] PHP Parse error:  syntax error, unexpected '<' in /home4/tauhidli/public_html/expokazuae/components/com_comprofiler/plugin/templates/bootstrap/bootstrap.php on line 87
+[15-Apr-2014 02:22:29] PHP Warning:  Unexpected character in input:  ''' (ASCII=39) state=1 in /home4/tauhidli/public_html/expokazuae/components/com_comprofiler/plugin/templates/bootstrap/bootstrap.php on line 87
+[15-Apr-2014 02:22:29] PHP Parse error:  syntax error, unexpected '<' in /home4/tauhidli/public_html/expokazuae/components/com_comprofiler/plugin/templates/bootstrap/bootstrap.php on line 87
+[15-Apr-2014 02:22:33] PHP Warning:  Unexpected character in input:  ''' (ASCII=39) state=1 in /home4/tauhidli/public_html/expokazuae/components/com_comprofiler/plugin/templates/bootstrap/bootstrap.php on line 87
+[15-Apr-2014 02:22:33] PHP Parse error:  syntax error, unexpected '<' in /home4/tauhidli/public_html/expokazuae/components/com_comprofiler/plugin/templates/bootstrap/bootstrap.php on line 87
+[15-Apr-2014 02:22:38] PHP Warning:  Unexpected character in input:  ''' (ASCII=39) state=1 in /home4/tauhidli/public_html/expokazuae/components/com_comprofiler/plugin/templates/bootstrap/bootstrap.php on line 87
+[15-Apr-2014 02:22:38] PHP Parse error:  syntax error, unexpected '<' in /home4/tauhidli/public_html/expokazuae/components/com_comprofiler/plugin/templates/bootstrap/bootstrap.php on line 87
+[15-Apr-2014 02:23:28] PHP Warning:  Unexpected character in input:  ''' (ASCII=39) state=1 in /home4/tauhidli/public_html/expokazuae/components/com_comprofiler/plugin/templates/bootstrap/bootstrap.php on line 87
+[15-Apr-2014 02:23:28] PHP Parse error:  syntax error, unexpected '<' in /home4/tauhidli/public_html/expokazuae/components/com_comprofiler/plugin/templates/bootstrap/bootstrap.php on line 87
+[15-Apr-2014 04:27:44] PHP Parse error:  syntax error, unexpected T_CONSTANT_ENCAPSED_STRING, expecting T_STRING or T_VARIABLE or '$' in /home4/tauhidli/public_html/expokazuae/components/com_comprofiler/plugin/templates/bootstrap/bootstrap.php on line 57
+[15-Apr-2014 04:28:14] PHP Parse error:  syntax error, unexpected T_CONSTANT_ENCAPSED_STRING, expecting T_STRING or T_VARIABLE or '$' in /home4/tauhidli/public_html/expokazuae/components/com_comprofiler/plugin/templates/bootstrap/bootstrap.php on line 57
+[15-Apr-2014 04:28:36] PHP Parse error:  syntax error, unexpected T_CONSTANT_ENCAPSED_STRING, expecting T_STRING or T_VARIABLE or '$' in /home4/tauhidli/public_html/expokazuae/components/com_comprofiler/plugin/templates/bootstrap/bootstrap.php on line 57
+[15-Apr-2014 04:28:39] PHP Parse error:  syntax error, unexpected T_CONSTANT_ENCAPSED_STRING, expecting T_STRING or T_VARIABLE or '$' in /home4/tauhidli/public_html/expokazuae/components/com_comprofiler/plugin/templates/bootstrap/bootstrap.php on line 57
+[15-Apr-2014 04:37:43] PHP Warning:  Attempt to assign property of non-object in /home4/tauhidli/public_html/expokazuae/libraries/joomla/application/module/helper.php on line 159
+[15-Apr-2014 04:37:43] PHP Warning:  Attempt to assign property of non-object in /home4/tauhidli/public_html/expokazuae/libraries/joomla/application/module/helper.php on line 218
+[15-Apr-2014 04:37:43] PHP Warning:  Attempt to assign property of non-object in /home4/tauhidli/public_html/expokazuae/libraries/joomla/application/module/helper.php on line 222
+[15-Apr-2014 04:44:21] PHP Warning:  Attempt to assign property of non-object in /home4/tauhidli/public_html/expokazuae/libraries/joomla/application/module/helper.php on line 159
+[15-Apr-2014 04:44:21] PHP Warning:  Attempt to assign property of non-object in /home4/tauhidli/public_html/expokazuae/libraries/joomla/application/module/helper.php on line 218
+[15-Apr-2014 04:44:21] PHP Warning:  Attempt to assign property of non-object in /home4/tauhidli/public_html/expokazuae/libraries/joomla/application/module/helper.php on line 222
+[15-Apr-2014 04:45:19] PHP Warning:  Attempt to assign property of non-object in /home4/tauhidli/public_html/expokazuae/libraries/joomla/application/module/helper.php on line 159
+[15-Apr-2014 04:46:01] PHP Warning:  Attempt to assign property of non-object in /home4/tauhidli/public_html/expokazuae/libraries/joomla/application/module/helper.php on line 159
+[15-Apr-2014 04:46:16] PHP Warning:  Attempt to assign property of non-object in /home4/tauhidli/public_html/expokazuae/libraries/joomla/application/module/helper.php on line 159
+[15-Apr-2014 04:46:50] PHP Warning:  Attempt to assign property of non-object in /home4/tauhidli/public_html/expokazuae/libraries/joomla/application/module/helper.php on line 159
+[15-Apr-2014 04:47:10] PHP Warning:  Attempt to assign property of non-object in /home4/tauhidli/public_html/expokazuae/libraries/joomla/application/module/helper.php on line 159
+[15-Apr-2014 04:47:40] PHP Warning:  Attempt to assign property of non-object in /home4/tauhidli/public_html/expokazuae/libraries/joomla/application/module/helper.php on line 159
+[15-Apr-2014 04:47:40] PHP Warning:  Attempt to assign property of non-object in /home4/tauhidli/public_html/expokazuae/libraries/joomla/application/module/helper.php on line 159
+[15-Apr-2014 04:47:51] PHP Warning:  Attempt to assign property of non-object in /home4/tauhidli/public_html/expokazuae/libraries/joomla/application/module/helper.php on line 159
+[15-Apr-2014 04:47:51] PHP Warning:  Attempt to assign property of non-object in /home4/tauhidli/public_html/expokazuae/libraries/joomla/application/module/helper.php on line 159
+[15-Apr-2014 04:48:09] PHP Warning:  Attempt to assign property of non-object in /home4/tauhidli/public_html/expokazuae/libraries/joomla/application/module/helper.php on line 159
+[15-Apr-2014 04:49:18] PHP Warning:  Attempt to assign property of non-object in /home4/tauhidli/public_html/expokazuae/libraries/joomla/application/module/helper.php on line 159
+[15-Apr-2014 04:49:18] PHP Warning:  Attempt to assign property of non-object in /home4/tauhidli/public_html/expokazuae/libraries/joomla/application/module/helper.php on line 218
+[15-Apr-2014 04:49:18] PHP Warning:  Attempt to assign property of non-object in /home4/tauhidli/public_html/expokazuae/libraries/joomla/application/module/helper.php on line 222
+[15-Apr-2014 04:50:18] PHP Fatal error:  Cannot use object of type stdClass as array in /home4/tauhidli/public_html/expokazuae/components/com_comprofiler/plugin/templates/bootstrap/bootstrap.php on line 60
+[15-Apr-2014 04:50:21] PHP Fatal error:  Cannot use object of type stdClass as array in /home4/tauhidli/public_html/expokazuae/components/com_comprofiler/plugin/templates/bootstrap/bootstrap.php on line 60
+[15-Apr-2014 04:50:45] PHP Fatal error:  Cannot use object of type stdClass as array in /home4/tauhidli/public_html/expokazuae/components/com_comprofiler/plugin/templates/bootstrap/bootstrap.php on line 60
+[15-Apr-2014 04:54:53] PHP Fatal error:  Cannot use object of type stdClass as array in /home4/tauhidli/public_html/expokazuae/components/com_comprofiler/plugin/templates/bootstrap/bootstrap.php on line 63
+[15-Apr-2014 04:56:09] PHP Warning:  Attempt to assign property of non-object in /home4/tauhidli/public_html/expokazuae/libraries/joomla/application/module/helper.php on line 159
+[15-Apr-2014 04:56:09] PHP Warning:  Attempt to assign property of non-object in /home4/tauhidli/public_html/expokazuae/libraries/joomla/application/module/helper.php on line 218
+[15-Apr-2014 04:56:09] PHP Warning:  Attempt to assign property of non-object in /home4/tauhidli/public_html/expokazuae/libraries/joomla/application/module/helper.php on line 222
+[15-Apr-2014 04:56:25] PHP Warning:  Attempt to assign property of non-object in /home4/tauhidli/public_html/expokazuae/libraries/joomla/application/module/helper.php on line 159
+[15-Apr-2014 04:57:08] PHP Warning:  Attempt to assign property of non-object in /home4/tauhidli/public_html/expokazuae/libraries/joomla/application/module/helper.php on line 159
+[15-Apr-2014 04:58:01] PHP Warning:  Attempt to assign property of non-object in /home4/tauhidli/public_html/expokazuae/libraries/joomla/application/module/helper.php on line 159
+[15-Apr-2014 05:09:42] PHP Warning:  Attempt to assign property of non-object in /home4/tauhidli/public_html/expokazuae/libraries/joomla/application/module/helper.php on line 159
+[15-Apr-2014 05:09:42] PHP Warning:  Attempt to assign property of non-object in /home4/tauhidli/public_html/expokazuae/libraries/joomla/application/module/helper.php on line 218
+[15-Apr-2014 05:09:42] PHP Warning:  Attempt to assign property of non-object in /home4/tauhidli/public_html/expokazuae/libraries/joomla/application/module/helper.php on line 222
+[15-Apr-2014 05:10:21] PHP Catchable fatal error:  Object of class stdClass could not be converted to string in /home4/tauhidli/public_html/expokazuae/components/com_comprofiler/plugin/templates/bootstrap/bootstrap.php on line 63
+[15-Apr-2014 05:11:35] PHP Catchable fatal error:  Object of class stdClass could not be converted to string in /home4/tauhidli/public_html/expokazuae/components/com_comprofiler/plugin/templates/bootstrap/bootstrap.php on line 63
+[22-Apr-2014 03:33:12] PHP Fatal error:  Using $this when not in object context in /home4/tauhidli/public_html/expokazuae/components/com_comprofiler/comprofiler.html.php on line 722
+[22-Apr-2014 03:33:20] PHP Fatal error:  Using $this when not in object context in /home4/tauhidli/public_html/expokazuae/components/com_comprofiler/comprofiler.html.php on line 722
+[22-Apr-2014 05:19:47] PHP Parse error:  syntax error, unexpected '.' in /home4/tauhidli/public_html/expokazuae/components/com_comprofiler/plugin/templates/bootstrap/bootstrap.php on line 66
+[22-Apr-2014 05:19:50] PHP Parse error:  syntax error, unexpected '.' in /home4/tauhidli/public_html/expokazuae/components/com_comprofiler/plugin/templates/bootstrap/bootstrap.php on line 66
+[25-Apr-2014 04:13:56] PHP Warning:  Invalid argument supplied for foreach() in /home4/tauhidli/public_html/expokazuae/components/com_finder/views/search/view.feed.php on line 76
+[28-Apr-2014 12:35:14] PHP Warning:  Invalid argument supplied for foreach() in /home4/tauhidli/public_html/expokazuae/components/com_finder/views/search/view.feed.php on line 76
+[29-Apr-2014 19:31:17] PHP Warning:  Invalid argument supplied for foreach() in /home4/tauhidli/public_html/expokazuae/components/com_finder/views/search/view.feed.php on line 76
+[30-Apr-2014 06:57:11] PHP Warning:  Invalid argument supplied for foreach() in /home4/tauhidli/public_html/expokazuae/components/com_finder/views/search/view.feed.php on line 76
+[30-Apr-2014 14:37:00] PHP Warning:  Invalid argument supplied for foreach() in /home4/tauhidli/public_html/expokazuae/components/com_finder/views/search/view.feed.php on line 76
+[01-May-2014 11:13:36] PHP Warning:  Invalid argument supplied for foreach() in /home4/tauhidli/public_html/expokazuae/components/com_finder/views/search/view.feed.php on line 76
+[01-May-2014 11:14:50] PHP Warning:  Invalid argument supplied for foreach() in /home4/tauhidli/public_html/expokazuae/components/com_finder/views/search/view.feed.php on line 76
+[01-May-2014 11:23:31] PHP Warning:  Invalid argument supplied for foreach() in /home4/tauhidli/public_html/expokazuae/components/com_finder/views/search/view.feed.php on line 76
+[01-May-2014 11:53:57] PHP Warning:  Invalid argument supplied for foreach() in /home4/tauhidli/public_html/expokazuae/components/com_finder/views/search/view.feed.php on line 76
+[01-May-2014 11:59:44] PHP Warning:  Invalid argument supplied for foreach() in /home4/tauhidli/public_html/expokazuae/components/com_finder/views/search/view.feed.php on line 76
+[01-May-2014 14:32:04] PHP Warning:  Invalid argument supplied for foreach() in /home4/tauhidli/public_html/expokazuae/components/com_finder/views/search/view.feed.php on line 76
+[01-May-2014 14:52:29] PHP Warning:  Invalid argument supplied for foreach() in /home4/tauhidli/public_html/expokazuae/components/com_finder/views/search/view.feed.php on line 76
+[01-May-2014 15:23:04] PHP Warning:  Invalid argument supplied for foreach() in /home4/tauhidli/public_html/expokazuae/components/com_finder/views/search/view.feed.php on line 76
+[05-May-2014 02:22:47] PHP Warning:  Invalid argument supplied for foreach() in /home4/tauhidli/public_html/expokazuae/components/com_finder/views/search/view.feed.php on line 76
+[05-May-2014 02:26:10] PHP Warning:  Invalid argument supplied for foreach() in /home4/tauhidli/public_html/expokazuae/components/com_finder/views/search/view.feed.php on line 76
+[06-May-2014 09:02:22] PHP Warning:  Invalid argument supplied for foreach() in /home4/tauhidli/public_html/expokazuae/components/com_finder/views/search/view.feed.php on line 76
+[08-May-2014 05:38:16] PHP Warning:  Invalid argument supplied for foreach() in /home4/tauhidli/public_html/expokazuae/components/com_finder/views/search/view.feed.php on line 76
+[08-May-2014 07:38:08] PHP Warning:  Invalid argument supplied for foreach() in /home4/tauhidli/public_html/expokazuae/components/com_finder/views/search/view.feed.php on line 76
+[08-May-2014 13:25:08] PHP Parse error:  syntax error, unexpected ')' in /home4/tauhidli/public_html/expokazuae/components/com_community/controllers/photos.php on line 1233
+[02-Jun-2014 11:52:44] PHP Fatal error:  Uncaught exception 'InvalidArgumentException' with message 'Invalid URI detected.' in /home4/tauhidli/public_html/expokazuae/libraries/joomla/environment/uri.php:194
+Stack trace:
+#0 /home4/tauhidli/public_html/expokazuae/libraries/joomla/factory.php(503): JURI::getInstance('SERVER')
+#1 /home4/tauhidli/public_html/expokazuae/plugins/system/languagefilter/languagefilter.php(69): JFactory::getURI()
+#2 /home4/tauhidli/public_html/expokazuae/libraries/joomla/plugin/helper.php(194): plgSystemLanguageFilter->__construct(Object(JDispatcher), Array)
+#3 /home4/tauhidli/public_html/expokazuae/libraries/joomla/plugin/helper.php(125): JPluginHelper::_import(Object(stdClass), true, NULL)
+#4 /home4/tauhidli/public_html/expokazuae/includes/application.php(61): JPluginHelper::importPlugin('system', 'languagefilter')
+#5 /home4/tauhidli/public_html/expokazuae/index.php(30): JSite->initialise()
+#6 {main}
+  thrown in /home4/tauhidli/public_html/expokazuae/libraries/joomla/environment/uri.php on line 194
+[06-Jun-2014 03:11:24] PHP Warning:  Invalid argument supplied for foreach() in /home4/tauhidli/public_html/expokazuae/libraries/joomla/database/database/mysql.php on line 383
+[06-Jun-2014 03:11:24] PHP Warning:  Invalid argument supplied for foreach() in /home4/tauhidli/public_html/expokazuae/libraries/joomla/database/database/mysql.php on line 383
+[06-Jun-2014 03:11:24] PHP Warning:  array_keys() [<a href='function.array-keys'>function.array-keys</a>]: The first argument should be an array in /home4/tauhidli/public_html/expokazuae/administrator/components/com_comprofiler/library/cb/cb.tables.php on line 703
+[06-Jun-2014 03:11:24] PHP Warning:  in_array() [<a href='function.in-array'>function.in-array</a>]: Wrong datatype for second argument in /home4/tauhidli/public_html/expokazuae/administrator/components/com_comprofiler/library/cb/cb.tables.php on line 714
+[12-Jun-2014 03:58:34] PHP Warning:  Invalid argument supplied for foreach() in /home4/tauhidli/public_html/expokazuae/libraries/joomla/database/database/mysql.php on line 383
+[12-Jun-2014 03:58:34] PHP Warning:  Invalid argument supplied for foreach() in /home4/tauhidli/public_html/expokazuae/libraries/joomla/database/database/mysql.php on line 383
+[12-Jun-2014 03:58:34] PHP Warning:  array_keys() [<a href='function.array-keys'>function.array-keys</a>]: The first argument should be an array in /home4/tauhidli/public_html/expokazuae/administrator/components/com_comprofiler/library/cb/cb.tables.php on line 703
+[12-Jun-2014 03:58:34] PHP Warning:  in_array() [<a href='function.in-array'>function.in-array</a>]: Wrong datatype for second argument in /home4/tauhidli/public_html/expokazuae/administrator/components/com_comprofiler/library/cb/cb.tables.php on line 714
+[30-Jun-2014 07:31:18] PHP Warning:  Invalid argument supplied for foreach() in /home4/tauhidli/public_html/expokazuae/components/com_content/models/articles.php on line 497
+[30-Jun-2014 07:31:18] PHP Warning:  Invalid argument supplied for foreach() in /home4/tauhidli/public_html/expokazuae/modules/mod_junewsultra/tmpl/default-en.php on line 57
+[30-Jun-2014 07:31:18] PHP Warning:  Invalid argument supplied for foreach() in /home4/tauhidli/public_html/expokazuae/components/com_content/models/articles.php on line 497
+[30-Jun-2014 07:31:18] PHP Warning:  Invalid argument supplied for foreach() in /home4/tauhidli/public_html/expokazuae/modules/mod_junewsultra/tmpl/2default-en.php on line 55
+[05-Aug-2014 03:54:01] PHP Fatal error:  Call to undefined method JDocumentRaw::addHeadLink() in /home4/tauhidli/public_html/expokazuae/modules/mod_search/mod_search.php on line 22
+[07-Sep-2014 22:41:29] PHP Fatal error:  Uncaught exception 'InvalidArgumentException' with message 'Invalid URI detected.' in /home4/tauhidli/public_html/expokazuae/libraries/joomla/environment/uri.php:194
+Stack trace:
+#0 /home4/tauhidli/public_html/expokazuae/libraries/joomla/factory.php(503): JURI::getInstance('SERVER')
+#1 /home4/tauhidli/public_html/expokazuae/plugins/system/languagefilter/languagefilter.php(69): JFactory::getURI()
+#2 /home4/tauhidli/public_html/expokazuae/libraries/joomla/plugin/helper.php(194): plgSystemLanguageFilter->__construct(Object(JDispatcher), Array)
+#3 /home4/tauhidli/public_html/expokazuae/libraries/joomla/plugin/helper.php(125): JPluginHelper::_import(Object(stdClass), true, NULL)
+#4 /home4/tauhidli/public_html/expokazuae/includes/application.php(61): JPluginHelper::importPlugin('system', 'languagefilter')
+#5 /home4/tauhidli/public_html/expokazuae/index.php(30): JSite->initialise()
+#6 {main}
+  thrown in /home4/tauhidli/public_html/expokazuae/libraries/joomla/environment/uri.php on line 194
+[13-Sep-2014 17:55:06] PHP Fatal error:  Uncaught exception 'InvalidArgumentException' with message 'Invalid URI detected.' in /home4/tauhidli/public_html/expokazuae/libraries/joomla/environment/uri.php:194
+Stack trace:
+#0 /home4/tauhidli/public_html/expokazuae/libraries/joomla/factory.php(503): JURI::getInstance('SERVER')
+#1 /home4/tauhidli/public_html/expokazuae/plugins/system/languagefilter/languagefilter.php(69): JFactory::getURI()
+#2 /home4/tauhidli/public_html/expokazuae/libraries/joomla/plugin/helper.php(194): plgSystemLanguageFilter->__construct(Object(JDispatcher), Array)
+#3 /home4/tauhidli/public_html/expokazuae/libraries/joomla/plugin/helper.php(125): JPluginHelper::_import(Object(stdClass), true, NULL)
+#4 /home4/tauhidli/public_html/expokazuae/includes/application.php(61): JPluginHelper::importPlugin('system', 'languagefilter')
+#5 /home4/tauhidli/public_html/expokazuae/index.php(30): JSite->initialise()
+#6 {main}
+  thrown in /home4/tauhidli/public_html/expokazuae/libraries/joomla/environment/uri.php on line 194
+[14-Sep-2014 00:26:59] PHP Fatal error:  Uncaught exception 'InvalidArgumentException' with message 'Invalid URI detected.' in /home4/tauhidli/public_html/expokazuae/libraries/joomla/environment/uri.php:194
+Stack trace:
+#0 /home4/tauhidli/public_html/expokazuae/libraries/joomla/factory.php(503): JURI::getInstance('SERVER')
+#1 /home4/tauhidli/public_html/expokazuae/plugins/system/languagefilter/languagefilter.php(69): JFactory::getURI()
+#2 /home4/tauhidli/public_html/expokazuae/libraries/joomla/plugin/helper.php(194): plgSystemLanguageFilter->__construct(Object(JDispatcher), Array)
+#3 /home4/tauhidli/public_html/expokazuae/libraries/joomla/plugin/helper.php(125): JPluginHelper::_import(Object(stdClass), true, NULL)
+#4 /home4/tauhidli/public_html/expokazuae/includes/application.php(61): JPluginHelper::importPlugin('system', 'languagefilter')
+#5 /home4/tauhidli/public_html/expokazuae/index.php(30): JSite->initialise()
+#6 {main}
+  thrown in /home4/tauhidli/public_html/expokazuae/libraries/joomla/environment/uri.php on line 194
+[14-Sep-2014 03:42:30] PHP Fatal error:  Uncaught exception 'InvalidArgumentException' with message 'Invalid URI detected.' in /home4/tauhidli/public_html/expokazuae/libraries/joomla/environment/uri.php:194
+Stack trace:
+#0 /home4/tauhidli/public_html/expokazuae/libraries/joomla/factory.php(503): JURI::getInstance('SERVER')
+#1 /home4/tauhidli/public_html/expokazuae/plugins/system/languagefilter/languagefilter.php(69): JFactory::getURI()
+#2 /home4/tauhidli/public_html/expokazuae/libraries/joomla/plugin/helper.php(194): plgSystemLanguageFilter->__construct(Object(JDispatcher), Array)
+#3 /home4/tauhidli/public_html/expokazuae/libraries/joomla/plugin/helper.php(125): JPluginHelper::_import(Object(stdClass), true, NULL)
+#4 /home4/tauhidli/public_html/expokazuae/includes/application.php(61): JPluginHelper::importPlugin('system', 'languagefilter')
+#5 /home4/tauhidli/public_html/expokazuae/index.php(30): JSite->initialise()
+#6 {main}
+  thrown in /home4/tauhidli/public_html/expokazuae/libraries/joomla/environment/uri.php on line 194
+[14-Sep-2014 07:35:57] PHP Fatal error:  Uncaught exception 'InvalidArgumentException' with message 'Invalid URI detected.' in /home4/tauhidli/public_html/expokazuae/libraries/joomla/environment/uri.php:194
+Stack trace:
+#0 /home4/tauhidli/public_html/expokazuae/libraries/joomla/factory.php(503): JURI::getInstance('SERVER')
+#1 /home4/tauhidli/public_html/expokazuae/plugins/system/languagefilter/languagefilter.php(69): JFactory::getURI()
+#2 /home4/tauhidli/public_html/expokazuae/libraries/joomla/plugin/helper.php(194): plgSystemLanguageFilter->__construct(Object(JDispatcher), Array)
+#3 /home4/tauhidli/public_html/expokazuae/libraries/joomla/plugin/helper.php(125): JPluginHelper::_import(Object(stdClass), true, NULL)
+#4 /home4/tauhidli/public_html/expokazuae/includes/application.php(61): JPluginHelper::importPlugin('system', 'languagefilter')
+#5 /home4/tauhidli/public_html/expokazuae/index.php(30): JSite->initialise()
+#6 {main}
+  thrown in /home4/tauhidli/public_html/expokazuae/libraries/joomla/environment/uri.php on line 194
+[14-Sep-2014 11:33:02] PHP Fatal error:  Uncaught exception 'InvalidArgumentException' with message 'Invalid URI detected.' in /home4/tauhidli/public_html/expokazuae/libraries/joomla/environment/uri.php:194
+Stack trace:
+#0 /home4/tauhidli/public_html/expokazuae/libraries/joomla/factory.php(503): JURI::getInstance('SERVER')
+#1 /home4/tauhidli/public_html/expokazuae/plugins/system/languagefilter/languagefilter.php(69): JFactory::getURI()
+#2 /home4/tauhidli/public_html/expokazuae/libraries/joomla/plugin/helper.php(194): plgSystemLanguageFilter->__construct(Object(JDispatcher), Array)
+#3 /home4/tauhidli/public_html/expokazuae/libraries/joomla/plugin/helper.php(125): JPluginHelper::_import(Object(stdClass), true, NULL)
+#4 /home4/tauhidli/public_html/expokazuae/includes/application.php(61): JPluginHelper::importPlugin('system', 'languagefilter')
+#5 /home4/tauhidli/public_html/expokazuae/index.php(30): JSite->initialise()
+#6 {main}
+  thrown in /home4/tauhidli/public_html/expokazuae/libraries/joomla/environment/uri.php on line 194
+[14-Sep-2014 15:36:09] PHP Fatal error:  Uncaught exception 'InvalidArgumentException' with message 'Invalid URI detected.' in /home4/tauhidli/public_html/expokazuae/libraries/joomla/environment/uri.php:194
+Stack trace:
+#0 /home4/tauhidli/public_html/expokazuae/libraries/joomla/factory.php(503): JURI::getInstance('SERVER')
+#1 /home4/tauhidli/public_html/expokazuae/plugins/system/languagefilter/languagefilter.php(69): JFactory::getURI()
+#2 /home4/tauhidli/public_html/expokazuae/libraries/joomla/plugin/helper.php(194): plgSystemLanguageFilter->__construct(Object(JDispatcher), Array)
+#3 /home4/tauhidli/public_html/expokazuae/libraries/joomla/plugin/helper.php(125): JPluginHelper::_import(Object(stdClass), true, NULL)
+#4 /home4/tauhidli/public_html/expokazuae/includes/application.php(61): JPluginHelper::importPlugin('system', 'languagefilter')
+#5 /home4/tauhidli/public_html/expokazuae/index.php(30): JSite->initialise()
+#6 {main}
+  thrown in /home4/tauhidli/public_html/expokazuae/libraries/joomla/environment/uri.php on line 194
+[15-Sep-2014 00:29:34] PHP Fatal error:  Uncaught exception 'InvalidArgumentException' with message 'Invalid URI detected.' in /home4/tauhidli/public_html/expokazuae/libraries/joomla/environment/uri.php:194
+Stack trace:
+#0 /home4/tauhidli/public_html/expokazuae/libraries/joomla/factory.php(503): JURI::getInstance('SERVER')
+#1 /home4/tauhidli/public_html/expokazuae/plugins/system/languagefilter/languagefilter.php(69): JFactory::getURI()
+#2 /home4/tauhidli/public_html/expokazuae/libraries/joomla/plugin/helper.php(194): plgSystemLanguageFilter->__construct(Object(JDispatcher), Array)
+#3 /home4/tauhidli/public_html/expokazuae/libraries/joomla/plugin/helper.php(125): JPluginHelper::_import(Object(stdClass), true, NULL)
+#4 /home4/tauhidli/public_html/expokazuae/includes/application.php(61): JPluginHelper::importPlugin('system', 'languagefilter')
+#5 /home4/tauhidli/public_html/expokazuae/index.php(30): JSite->initialise()
+#6 {main}
+  thrown in /home4/tauhidli/public_html/expokazuae/libraries/joomla/environment/uri.php on line 194
+[18-Oct-2014 22:04:40] PHP Parse error:  syntax error, unexpected ')' in /home4/tauhidli/public_html/expokazuae/components/com_community/controllers/photos.php on line 1233
+[19-Oct-2014 11:30:10] PHP Parse error:  syntax error, unexpected ')' in /home4/tauhidli/public_html/expokazuae/components/com_community/controllers/photos.php on line 1233
+[26-Nov-2014 17:38:00] PHP Parse error:  syntax error, unexpected ')' in /home4/tauhidli/public_html/expokazuae/components/com_community/controllers/photos.php on line 1233
+[06-Dec-2014 02:30:08] PHP Parse error:  syntax error, unexpected ')' in /home4/tauhidli/public_html/expokazuae/components/com_community/controllers/photos.php on line 1233
+[15-Dec-2014 06:48:10] PHP Parse error:  syntax error, unexpected ')' in /home4/tauhidli/public_html/expokazuae/components/com_community/controllers/photos.php on line 1233
+[28-Dec-2014 21:11:20] PHP Fatal error:  Uncaught exception 'InvalidArgumentException' with message 'Invalid URI detected.' in /home4/tauhidli/public_html/expokazuae/libraries/joomla/environment/uri.php:194
+Stack trace:
+#0 /home4/tauhidli/public_html/expokazuae/libraries/joomla/factory.php(503): JURI::getInstance('SERVER')
+#1 /home4/tauhidli/public_html/expokazuae/plugins/system/languagefilter/languagefilter.php(69): JFactory::getURI()
+#2 /home4/tauhidli/public_html/expokazuae/libraries/joomla/plugin/helper.php(194): plgSystemLanguageFilter->__construct(Object(JDispatcher), Array)
+#3 /home4/tauhidli/public_html/expokazuae/libraries/joomla/plugin/helper.php(125): JPluginHelper::_import(Object(stdClass), true, NULL)
+#4 /home4/tauhidli/public_html/expokazuae/includes/application.php(61): JPluginHelper::importPlugin('system', 'languagefilter')
+#5 /home4/tauhidli/public_html/expokazuae/index.php(30): JSite->initialise()
+#6 {main}
+  thrown in /home4/tauhidli/public_html/expokazuae/libraries/joomla/environment/uri.php on line 194
+[04-Feb-2015 03:40:58] PHP Fatal error:  Uncaught exception 'InvalidArgumentException' with message 'Invalid URI detected.' in /home4/tauhidli/public_html/expokazuae/libraries/joomla/environment/uri.php:194
+Stack trace:
+#0 /home4/tauhidli/public_html/expokazuae/libraries/joomla/factory.php(503): JURI::getInstance('SERVER')
+#1 /home4/tauhidli/public_html/expokazuae/plugins/system/languagefilter/languagefilter.php(69): JFactory::getURI()
+#2 /home4/tauhidli/public_html/expokazuae/libraries/joomla/plugin/helper.php(194): plgSystemLanguageFilter->__construct(Object(JDispatcher), Array)
+#3 /home4/tauhidli/public_html/expokazuae/libraries/joomla/plugin/helper.php(125): JPluginHelper::_import(Object(stdClass), true, NULL)
+#4 /home4/tauhidli/public_html/expokazuae/includes/application.php(61): JPluginHelper::importPlugin('system', 'languagefilter')
+#5 /home4/tauhidli/public_html/expokazuae/index.php(30): JSite->initialise()
+#6 {main}
+  thrown in /home4/tauhidli/public_html/expokazuae/libraries/joomla/environment/uri.php on line 194

@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="utf-8"?>
+<extension type="file" version="3.5.3" method="upgrade">
+	<name>اللغة العربية للمحرر TinyMCE</name>
+	<author>Dr. Ashraf Damra</author>
+	<creationDate>01 September 2012</creationDate>
+	<copyright>(C) 2010-2011 Arabic Translation Team</copyright>
+	<license>http://www.gnu.org/licenses/gpl-2.0.html GNU/GPL</license>
+	<authorforum>http://forum.joomla.org/viewforum.php?f=17</authorforum>
+	<authorUrl>http://www.jarabic.com</authorUrl>
+	<version>3.5.3</version>
+	<description><![CDATA[
+		<h3>تم بنجاح تنصيب حزمة اللغة العربية للمحرر TinyMCE 3 المعتمد في جوملا! 2.5</h3>
+		<div style="font-weight:normal">تذكر أنه من الواجب ادخال كود اللغة العربية ar في خانة اللغة عند<a href="index.php?option=com_plugins&view=plugins&filter_search=TinyMCE"><strong> ادارة التطبيق المساعد المحرر-TinyMCE </strong></a><br />
+		]]>
+	</description>
+
+	<!-- Fileset definition -->
+	<fileset>
+		<files target="media/editors">
+					<filename>tinymce/jscripts/tiny_mce/langs/ar.js</filename>
+					<filename>tinymce/jscripts/tiny_mce/plugins/advhr/langs/ar_dlg.js</filename>
+					<filename>tinymce/jscripts/tiny_mce/plugins/advimage/langs/ar_dlg.js</filename>
+					<filename>tinymce/jscripts/tiny_mce/plugins/advlink/langs/ar_dlg.js</filename>
+					<filename>tinymce/jscripts/tiny_mce/plugins/autosave/langs/ar.js</filename>
+					<filename>tinymce/jscripts/tiny_mce/plugins/emotions/langs/ar_dlg.js</filename>
+					<filename>tinymce/jscripts/tiny_mce/plugins/fullpage/langs/ar_dlg.js</filename>
+					<filename>tinymce/jscripts/tiny_mce/plugins/media/langs/ar_dlg.js</filename>
+					<filename>tinymce/jscripts/tiny_mce/plugins/paste/langs/ar_dlg.js</filename>
+					<filename>tinymce/jscripts/tiny_mce/plugins/searchreplace/langs/ar_dlg.js</filename>
+					<filename>tinymce/jscripts/tiny_mce/plugins/style/langs/ar_dlg.js</filename>
+					<filename>tinymce/jscripts/tiny_mce/plugins/table/langs/ar_dlg.js</filename>
+					<filename>tinymce/jscripts/tiny_mce/plugins/template/langs/ar_dlg.js</filename>
+					<filename>tinymce/jscripts/tiny_mce/plugins/xhtmlxtras/langs/ar_dlg.js</filename>
+					<filename>tinymce/jscripts/tiny_mce/themes/advanced/langs/ar.js</filename>
+					<filename>tinymce/jscripts/tiny_mce/themes/advanced/langs/ar_dlg.js</filename>
+					<filename>tinymce/jscripts/tiny_mce/themes/simple/langs/ar.js</filename>
+		</files>
+	</fileset>
+</extension>

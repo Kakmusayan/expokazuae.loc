@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<extension type="package" version="2.5">
+   <name>Arabic Unitag Language Package - حزمة اللغة العربية الموحدة</name>
+   <packagename>ar-AA</packagename>
+   <version>2.5.19.1</version>
+   <creationDate>29 February 2014</creationDate>
+   <author>Dr. Ashraf Damra/Abu Nidal and Karim embarek/xmedia</author>
+   <authorEmail>dr.d.ashraf@gmail.com / maxnew486@hotmail.com‏</authorEmail>
+   <authorUrl>www.jarabic.com</authorUrl>
+    <copyright>Copyright (C) 2005 - 2014 Open Source Matters &amp; Dr. Ashraf Damra/Abu Nidal and Karim embarek/xmedia. All rights reserved.</copyright>
+   <license>GNU General Public License version 2 or later; see LICENSE.txt</license>
+   <url>http://forum.joomla.org/viewforum.php?f=17</url>
+   <packager>Dr. Ashraf Damra/Abu Nidal and Karim embarek/xmedia</packager>
+   <packagerurl>www.jarabic.com</packagerurl>
+   <description><![CDATA[
+	    <h3>حزمة اللغة العربية الموحدة لنظام جوملا! 2.5.19 الاصدار 1</h3>
+		<h3>Arabic Unitag Language Package for Joomla! 2.5.19 version 1</h3>
+		<h3>تم بنجاح تنصيب حزمة اللغة العربية للمحرر TinyMCE 3 المعتمد في جوملا! 2.5</h3>
+		<div style="font-weight:normal">تذكر أنه من الواجب ادخال كود اللغة العربية ar في خانة اللغة عند<a href="index.php?option=com_plugins&view=plugins&filter_search=TinyMCE"><strong> ادارة التطبيق المساعد المحرر-TinyMCE </strong></a><br />
+		]]>
+   </description>
+   <files>
+        <file type="language" client="site" id="ar-AA">site_ar-AA.zip</file>
+        <file type="language" client="administrator" id="ar-AA">admin_ar-AA.zip</file>
+		<file type="file" client="site" id="TinyMCE_ar-AA">ar-AA_TinyMCE_3.5.2.zip</file>
+   </files>
+    <updateservers>
+        <server type="collection" priority="2" name="Accredited Joomla! Translations">http://update.joomla.org/language/translationlist.xml</server>
+    </updateservers>
+</extension>

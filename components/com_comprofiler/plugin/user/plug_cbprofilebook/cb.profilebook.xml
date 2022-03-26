@@ -1,0 +1,426 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!--
+/**
+* Joomla Community Builder User Plugin: plug_cbprofilebook
+* @version $Id$
+* @package plug_cbprofilebook
+* @subpackage cb.profilebook.xml
+* @author JoomlaJoe and Beat
+* @copyright (C) JoomlaJoe and Beat 2005-2009, www.joomlapolis.com and various
+* @license Limited http://www.gnu.org/licenses/old-licenses/gpl-2.0.html GNU/GPL version 2
+* @final 1.2 RC for CB 1.2 Stable
+*/
+-->
+<cbinstall version="1.0" type="plugin" group="user">
+	<name>CB ProfileBook</name>
+	<author>JoomlaJoe and Beat and Tod</author>
+	<creationDate>04.02.2010</creationDate>
+	<copyright>(C) 2006-2009 www.joomlapolis.com</copyright>
+	<license>http://www.gnu.org/licenses/old-licenses/gpl-2.0.html GNU/GPL version 2</license>
+	<authorEmail>joomlajoe@joomlapolis.com</authorEmail>
+	<authorUrl>www.joomlapolis.com</authorUrl>
+	<version>1.2</version>
+	<description>Гостевая книга для страницы пользователя. Версия 1.2 RC совместим с CB 1.2 Stable (Joomla 1.5.X, Joomla 1.0.x, а также Mambo 4.5.2 - 4.6.5). Перевод от Tod, в рамках проекта http://socialjoom.ru</description>
+	<files>
+		<filename plugin="cb.profilebook">cb.profilebook.php</filename>
+		<filename>index.html</filename>
+		<filename>bb_adm.js</filename>
+		<filename>bb_adm.min.js</filename>
+		<filename>classes/bbcode.inc.php</filename>
+		<filename>classes/index.html</filename>
+		<filename>smilies/angry.png</filename>
+		<filename>smilies/arrow.gif</filename>
+		<filename>smilies/blink.png</filename>
+		<filename>smilies/blush.png</filename>
+		<filename>smilies/cheerful.png</filename>
+		<filename>smilies/cool.png</filename>
+		<filename>smilies/devil.png</filename>
+		<filename>smilies/dizzy.png</filename>
+		<filename>smilies/ermm.png</filename>
+		<filename>smilies/grin.png</filename>
+		<filename>smilies/kissing.png</filename>
+		<filename>smilies/laughing.png</filename>
+		<filename>smilies/pinch.png</filename>
+		<filename>smilies/sad.png</filename>
+		<filename>smilies/shocked.png</filename>
+		<filename>smilies/sick.png</filename>
+		<filename>smilies/sideways.png</filename>
+		<filename>smilies/silly.png</filename>
+		<filename>smilies/smile.png</filename>
+		<filename>smilies/tongue.png</filename>
+		<filename>smilies/unsure.png</filename>
+		<filename>smilies/w00t.png</filename>
+		<filename>smilies/wassat.png</filename>
+		<filename>smilies/whistling.png</filename>
+		<filename>smilies/wink.png</filename>
+		<filename>smilies/none-arrow.gif</filename>
+		<filename>smilies/block-arrow.gif</filename>		
+		<filename>smilies/index.html</filename>
+		<filename>install.profilebook.php</filename>
+		<filename>uninstall.profilebook.php</filename>
+	</files>
+	<params>
+		<param name="pbStatRating" type="radio" default="1" label="Добавить рейтинг в статистику пользователя" description="Добавить средний балл в статистике пользователя">
+			<option value="0">Нет</option>
+			<option value="1">Да</option>
+		</param>
+		<param name="pbStatRatingText" type="text" default="Рейтинг" label="Описание поля рейтинга" description="Значение, отображающее рейтинг пользователя" />    
+		<param name="pbUnistallMode" type="list" default="0" label="Способ деинсталяции" description="Значение по умолчанию - удаление файлов, но оставление БД">
+			<option value="0">Оставить таблицы БД</option>
+			<option value="1">Удалить таблицы БД</option>                                      
+		</param>
+	</params>
+	<tabs>
+		<tab name="ProfileBook" description="" class="getprofilebookTab" fields="1" position="cb_tabmain" displaytype="tab">
+			<params>
+				<fieldset name="fmains" label="Основные настройки" description="">
+					<param name="pbEntriesPerPage" type="text" default="10" label="Записей на странице" description="Количество записей, отображаемых на странице." />    
+					<param name="pbSortDirection" type="list" default="DESC" label="Сортировка" description="Установить порядок сортировки записей на основе представления даты / времени.">
+						<option value="ASC">По возрастанию</option>
+						<option value="DESC">По убыванию</option>
+					</param>
+				</fieldset>
+				<fieldset name="ffeatures" label="Включенные функции" description="">
+					<param name="pbAllowAnony" type="list" default="0" label="Анонимные записи" description="позволяет НЕ ЗАРЕГИСТРИРОВАННЫМ пользователям оставлять записи.">
+						<option value="0">Нет</option>
+						<option value="1">Да</option>
+					</param>
+					<param name="pbCaptcha" type="list" default="1" label="Включить интегрирование каптчи" description="Если плагин CB captcha установлен, можете выбрать да.">
+						<option value="0">Нет</option>
+						<option value="1">Да, но только для не зарегистрированных</option>
+						<option value="2">Да, в том числе и для зарегистрированных</option>
+					</param>
+					<param name="pbEnableRating" type="list" default="2" label="Включить рейтинг пользователей" description="Позволить оценивать пользователей">
+						<option value="0">Нет</option>
+						<option value="1">Да, но не обязательно</option>
+						<option value="2">Да, но не обязательно, но напоминать</option>
+						<option value="3">Да, обязательно</option>
+					</param>
+				</fieldset>
+				<fieldset name="ffeatures" label="Содержимое записей" description="">
+					<param name="pbShowTitle" type="list" default="0" label="Показывать заголовок" description="Показывать имя авторизованного пользователя">
+						<option value="0">Нет</option>
+						<option value="1">Да</option>
+					</param>
+					<param name="pbAllowSmiles" type="list" default="1" label="Разрешить смайлики" description="Разрешить пользователям добавлять смайлы в сообщения">
+						<option value="0">Нет</option>
+						<option value="1">Да</option>
+					</param>
+					<param name="pbAllowBBCode" type="list" default="1" label="разрешить ВВ коды" description="Разрешить пользователям использование ВВ кодов">
+						<option value="0">Нет</option>
+						<option value="1">Да</option>
+					</param>
+					<if name="pbAllowBBCode" type="showhide" operator="=" value="1" valuetype="const:string">
+						<fieldset name="fbbcodes" label="Специальные BB коды" description="">
+							<param name="pbAllowImgBBCode" type="list" default="0" label="разрегить ВВ код [img]" description="разрешить использование кода [img]">
+								<option value="0">Нет</option>
+								<option value="1">Да</option>
+							</param>
+							<param name="pbAllowVideoBBCode" type="list" default="0" label="разрешить ВВ код [video]" description="разрешить использование кода [video]">
+								<option value="0">Нет</option>
+								<option value="1">Да</option>
+							</param>
+						</fieldset>
+					<else action="set" name="pbAllowImgBBCode" value="0" type="const:string" />
+					<else action="set" name="pbAllowVideoBBCode" value="0" type="const:string" />
+					</if>
+				</fieldset>
+				<fieldset name="fmoref" label="Дополнительные функции" description="">
+					<param name="pbPagingEngabbled" type="list" default="1" label="Разрешить разбиение на страницы" description="Разрешить разбиение записей на страницы, когда их число превышает заданное">
+						<option value="0">Нет</option>
+						<option value="1">Да</option>
+					</param>
+					<param name="pbEnableGesture" type="list" default="0" label="Включить ссылку Назад" description="Кокда пользователь просматривает запись другого зарегистрированного пользователя появится ссылка, которая позволит им вернуться назад.">
+						<option value="0">Нет</option>
+						<option value="1">Да</option>
+					</param>
+					<param name="pbShowEditor" type="list" default="0" label="Показывать редактор по умолчанию" description="Разрешить напрямую ввод текста.">
+						<option value="0">Скрыть</option>
+						<option value="1">Показать</option>
+					</param>
+				</fieldset>
+				<fieldset name="fextras" label="Дополнительные поля" description="">
+					<param name="pbShowName" type="list" default="1" label="Показывать имя" description="Показывать имя авторизованным пользователям">
+						<option value="0">Нет</option>
+						<option value="1">Да</option>
+					</param>
+					<param name="pbShowEmail" type="list" default="0" label="Показывать email" description="показывать email авторизованным пользователям">
+						<option value="0">Нет</option>
+						<option value="1">Да</option>
+					</param>
+					<param name="pbUseLocation" type="list" default="1" label="использовать поле Местоположение" description="Разрешить пользователям указывать свое местоположение">
+						<option value="0">Нет</option>
+						<option value="1">Да</option>
+					</param>
+					<if name="pbUseLocation" type="showhide" operator="=" value="1" valuetype="const:string">
+						<param name="pbLocationField" type="field" default="" label="Поле местонахождения" description="Выберите имя поля, которое содержит эквивалентное поле вменеджере полей CB. Если поле пусто, то пользователю будет предложенно его ввести" />
+					</if>
+					<param name="pbUseWebAddress" type="list" default="1" label="Использовать поле веб адреса" description="Разрешить пользователям вводить адрес своего сайта">
+						<option value="0">Нет</option>
+						<option value="1">Да</option>
+					</param>
+					<if name="pbUseWebAddress" type="showhide" operator="=" value="1" valuetype="const:string">
+						<param name="pbWebField" type="field" default="" label="Поле веб адреса" description="Выберите поле с эквивалентными данными, содержащее адрес интернет сраницы пользователя в менеджере полей Community Build.  Если пусто, пользователю будет предложено заполнить данное поле." />
+					</if>
+				</fieldset>
+			</params>
+			<fields>
+				<field type="radio" title="Разрешить записи в профиле" name="cb_pb_enable" description="Разрешить посетителям оставлять комментарии о вас и вашем профиле." registration="0" readonly="0" profile="0">
+					<fieldvalue title="_UE_YES" ordering="1" sys="0" />
+					<fieldvalue title="_UE_NO" ordering ="2" sys="0" />
+				</field>
+				<field type="radio" title="Автопубликация" name="cb_pb_autopublish" description="Разрешить автоматическую публикацию записей на странице." registration="0" readonly="0" profile="0" >
+					<fieldvalue title="_UE_YES" ordering="1" sys="0" />
+					<fieldvalue title="_UE_NO" ordering ="2" sys="0" />
+				</field>
+				<field type="radio" title="Уведомлять меня" name="cb_pb_notifyme" description="Включить уведомления по email о новых записях на стене.  Рекомендуется, если отключена автопубликация." registration="0" readonly="0" profile="0" >
+					<fieldvalue title="_UE_YES" ordering="1" sys="0" />
+					<fieldvalue title="_UE_NO" ordering ="2" sys="0" />
+				</field>
+			</fields>
+		</tab>
+		<tab name="ProfileBlog" description="" class="getprofilebookblogTab" fields="1" position="cb_tabmain" displaytype="tab">
+			<params>
+				<fieldset name="fmains" label="Основные настройки" description="">
+					<param name="pbEntriesPerPage" type="text" default="5" label="Записей на странице" description="Количество записей, отображаемых на странице." />    
+					<param name="pbSortDirection" type="list" default="DESC" label="Сортировка" description="Установить порядок сортировки записей на основе представления даты / времени.">
+						<option value="ASC">По возрастанию</option>
+						<option value="DESC">По убыванию</option>
+					</param>
+				</fieldset>
+				<fieldset name="ffeatures" label="Содержимое записей" description="">
+					<param name="pbShowTitle" type="list" default="1" label="Показывать заголовок" description="Показывать имя авторизованного пользователя">
+						<option value="0">Нет</option>
+						<option value="1">Да</option>
+					</param>
+					<param name="pbAllowSmiles" type="list" default="1" label="Разрешить смайлики" description="Разрешить пользователям добавлять смайлы в сообщения">
+						<option value="0">Нет</option>
+						<option value="1">Да</option>
+					</param>
+					<param name="pbAllowBBCode" type="list" default="1" label="разрешить ВВ коды" description="Разрешить пользователям использование ВВ кодов">
+						<option value="0">Нет</option>
+						<option value="1">Да</option>
+					</param>
+					<if name="pbAllowBBCode" type="showhide" operator="=" value="1" valuetype="const:string">
+						<fieldset name="fbbcodes" label="Специальные BB коды" description="">
+							<param name="pbAllowImgBBCode" type="list" default="0" label="разрегить ВВ код [img]" description="разрешить использование кода [img]">
+								<option value="0">Нет</option>
+								<option value="1">Да</option>
+							</param>
+							<param name="pbAllowVideoBBCode" type="list" default="0" label="разрешить ВВ код [video]" description="разрешить использование кода [video]">
+								<option value="0">Нет</option>
+								<option value="1">Да</option>
+							</param>
+						</fieldset>
+						<else action="set" name="pbAllowImgBBCode" value="0" type="const:string" />
+						<else action="set" name="pbAllowVideoBBCode" value="0" type="const:string" />
+					</if>
+				</fieldset>
+				<fieldset name="fmoref" label="Дополнительные функции" description="">
+					<param name="pbPagingEngabbled" type="list" default="1" label="Разрешить разбиение на страницы" description="Разрешить разбиение записей на страницы, когда их число превышает заданное">
+						<option value="0">Нет</option>
+						<option value="1">Да</option>
+					</param>
+					<param name="pbShowEditor" type="list" default="0" label="Показывать редактор по умолчанию" description="Разрешить напрямую ввод текста.">
+						<option value="0">Скрыть</option>
+						<option value="1">Показать</option>
+					</param>
+				</fieldset>
+			</params>
+			<fields>
+				<field type="radio" title="Enable Profile Blog" name="cb_pb_enable_blog" description="Разрешить блог в профиле." registration="0" readonly="0" profile="0">
+					<fieldvalue title="_UE_YES" ordering="1" sys="0" />
+					<fieldvalue title="_UE_NO" ordering ="2" sys="0" />
+				</field>
+			</fields>
+		</tab>
+		<tab name="ProfileWall" description="" class="getprofilebookwallTab" fields="1" position="cb_tabmain" displaytype="tab">
+			<params>
+				<fieldset name="fmains" label="Основные настройки" description="">
+					<param name="pbEntriesPerPage" type="text" default="10" label="Записей на странице" description="Количество записей, отображаемых на странице" />    
+					<param name="pbSortDirection" type="list" default="DESC" label="Сортировка" description="Установить порядок сортировки записей на основе представления даты / времени.">
+						<option value="ASC">По возрастанию</option>
+						<option value="DESC">По убыванию</option>
+					</param>
+				</fieldset>
+					<fieldset name="ffeatures" label="Включенные функции" description="">
+						<param name="pbAllowAnony" type="list" default="0" label="Анонимные записи" description="позволяет НЕ ЗАРЕГИСТРИРОВАННЫМ пользователям оставлять записи.">
+							<option value="0">Нет</option>
+							<option value="1">Да</option>
+						</param>
+						<param name="pbCaptcha" type="list" default="1" label="Включить интегрирование каптчи" description="Если плагин CB captcha установлен, можете выбрать да.">
+							<option value="0">Нет</option>
+							<option value="1">Да, но только для не зарегистрированных</option>
+							<option value="2">Да, в том числе и для зарегистрированных</option>
+						</param>
+						<param name="pbEnableRating" type="list" default="0" label="Включить рейтинг пользователей" description="Позволить оценивать пользователей">
+							<option value="0">Нет</option>
+							<option value="1">Да, но не обязательно</option>
+							<option value="2">Да, но не обязательно, но напоминать</option>
+							<option value="3">Да, обязательно</option>
+						</param>
+					</fieldset>
+				<fieldset name="ffeatures" label="Содержимое записей" description="">
+					<param name="pbShowTitle" type="list" default="0" label="Показывать заголовок" description="Показывать имя авторизованного пользователя">
+						<option value="0">Нет</option>
+						<option value="1">Да</option>
+					</param>
+					<param name="pbAllowSmiles" type="list" default="1" label="Разрешить смайлики" description="Разрешить пользователям добавлять смайлы в сообщения">
+						<option value="0">Нет</option>
+						<option value="1">Да</option>
+					</param>
+					<param name="pbAllowBBCode" type="list" default="1" label="разрешить ВВ коды" description="Разрешить пользователям использование ВВ кодов">
+						<option value="0">Нет</option>
+						<option value="1">Да</option>
+					</param>
+					<if name="pbAllowBBCode" type="showhide" operator="=" value="1" valuetype="const:string">
+						<fieldset name="fbbcodes" label="Специальные BB коды" description="">
+							<param name="pbAllowImgBBCode" type="list" default="0" label="разрегить ВВ код [img]" description="разрешить использование кода [img]">
+								<option value="0">Нет</option>
+								<option value="1">Да</option>
+							</param>
+							<param name="pbAllowVideoBBCode" type="list" default="0" label="разрешить ВВ код [video]" description="разрешить использование кода [video]">
+								<option value="0">Нет</option>
+								<option value="1">Да</option>
+							</param>
+						</fieldset>
+					<else action="set" name="pbAllowImgBBCode" value="0" type="const:string" />
+					<else action="set" name="pbAllowVideoBBCode" value="0" type="const:string" />
+					</if>
+				</fieldset>
+				<fieldset name="fmoref" label="Дополнительные функции" description="">
+					<param name="pbPagingEngabbled" type="list" default="1" label="Разрешить разбиение на страницы" description="Разрешить разбиение записей на страницы, когда их число превышает заданное">
+						<option value="0">Нет</option>
+						<option value="1">Да</option>
+					</param>
+					<param name="pbEnableGesture" type="list" default="0" label="Включить ссылку Назад" description="Кокда пользователь просматривает запись другого зарегистрированного пользователя появится ссылка, которая позволит им вернуться назад.">
+						<option value="0">Нет</option>
+						<option value="1">Да</option>
+					</param>
+					<param name="pbShowEditor" type="list" default="0" label="Показывать редактор по умолчанию" description="Разрешить напрямую ввод текста.">
+						<option value="0">Скрыть</option>
+						<option value="1">Показать</option>
+					</param>
+				</fieldset>
+				<fieldset name="fextras" label="Дополнительные поля" description="">
+					<param name="pbShowName" type="list" default="0" label="Показывать имя" description="Показывать имя авторизованным пользователям">
+						<option value="0">Нет</option>
+						<option value="1">Да</option>
+					</param>
+					<param name="pbShowEmail" type="list" default="0" label="Показывать email" description="показывать email авторизованным пользователям">
+						<option value="0">Нет</option>
+						<option value="1">Да</option>
+					</param>
+					<param name="pbUseLocation" type="list" default="0" label="использовать поле Местоположение" description="Разрешить пользователям указывать свое местоположение">
+						<option value="0">Нет</option>
+						<option value="1">Да</option>
+					</param>
+					<if name="pbUseLocation" type="showhide" operator="=" value="1" valuetype="const:string">
+						<param name="pbLocationField" type="field" default="" label="Поле местонахождения" description="Выберите имя поля, которое содержит эквивалентное поле вменеджере полей CB. Если поле пусто, то пользователю будет предложенно его ввести" />
+					</if>
+					<param name="pbUseWebAddress" type="list" default="0" label="Использовать поле веб адреса" description="Разрешить пользователям вводить адрес своего сайта">
+						<option value="0">Нет</option>
+						<option value="1">Да</option>
+					</param>
+					<if name="pbUseWebAddress" type="showhide" operator="=" value="1" valuetype="const:string">
+						<param name="pbWebField" type="field" default="" label="Поле веб адреса" description="Выберите поле с эквивалентными данными, содержащее адрес интернет сраницы пользователя в менеджере полей Community Build.  Если пусто, пользователю будет предложено заполнить данное поле." />
+					</if>
+				</fieldset>
+			</params>
+			<fields>
+				<field type="radio" title="Включить личную стену" name="cb_pb_enable_wall" description="Разрешить посетителям оставлять комментарии о вас и вашем профиле." registration="0" readonly="0" profile="0">
+					<fieldvalue title="_UE_YES" ordering="1" sys="0" />
+					<fieldvalue title="_UE_NO" ordering ="2" sys="0" />
+				</field>
+				<field type="radio" title="Автопубликация" name="cb_pb_autopublish_wall" description="Разрешить автоматическую публикацию записей на странице." registration="0" readonly="0" profile="0" >
+					<fieldvalue title="_UE_YES" ordering="1" sys="0" />
+					<fieldvalue title="_UE_NO" ordering ="2" sys="0" />
+				</field>
+				<field type="radio" title="Уведомлять меня" name="cb_pb_notifyme_wall" description="Включить уведомления по email о новых записях на стене.  Рекомендуется, если отключена автопубликация." registration="0" readonly="0" profile="0" >
+					<fieldvalue title="_UE_YES" ordering="1" sys="0" />
+					<fieldvalue title="_UE_NO" ordering ="2" sys="0" />
+				</field>
+			</fields>
+		</tab>
+		<tab type="existingSytemTab" class="getStatusTab">
+			<fields>
+				<field type="pb_profile_rating" title="Rating" name="cb_pb_profile_rating" description="" registration="0" readonly="1" profile="1" calculated="1" tab="Status" />
+			</fields>
+		</tab>
+	</tabs>
+	<fieldtypes>
+		<field type="pb_profile_rating" label="Avg Profile Rating" unique="true">
+			<database version="1">
+				<table name="#__comprofiler" class="moscomprofiler" maintable="true" strict="false" drop="never" shared="true">
+					<columns>
+					</columns>
+				</table>
+			</database>
+			<params>
+			</params>
+		</field>
+	</fieldtypes>
+	<database version="1">
+		<table name="#__comprofiler_plug_profilebook" class="" strict="true" drop="never">
+			<columns strict="true" drop="never">
+				<column name="id" type="sql:int(11)" unsigned="true" auto_increment="1" strict="true" />
+				<column name="mode" type="sql:char(1)" null="false" default="g" strict="true" />
+				<column name="posterid" type="sql:int(11)" unsigned="true" null="true" strict="true" />
+				<column name="posterip" type="sql:varchar(255)" strict="true" />
+				<column name="postername" type="sql:varchar(255)" null="true" default="" strict="true" />
+				<column name="posteremail" type="sql:varchar(255)" null="true" strict="true" />
+				<column name="posterlocation" type="sql:varchar(255)" null="true" strict="true" />
+				<column name="posterurl" type="sql:varchar(255)" null="true" strict="true" />
+				<column name="postervote" type="sql:int(11)" unsigned="true" null="true" strict="true" />
+				<column name="postertitle" type="sql:varchar(128)" strict="true" />
+				<column name="postercomment" type="sql:text" strict="true" />
+				<column name="date" type="sql:datetime" null="true" strict="true" />
+				<column name="userid" type="sql:int(11)" unsigned="true" strict="true" />
+				<column name="feedback" type="sql:text" null="true" strict="true" />
+				<column name="editdate" type="sql:datetime" null="true" strict="true" />
+				<column name="editedbyid" type="sql:int(11)" unsigned="true" strict="true" />
+				<column name="editedbyname" type="sql:varchar(255)" null="true" strict="true" />
+				<column name="published" type="sql:tinyint(3)" strict="true" />
+				<column name="status" type="sql:tinyint(3)" strict="true" />
+			</columns>
+			<indexes strict="true" drop="never">
+				<index name="PRIMARY" type="primary">
+					<column name="id" />
+				</index>
+				<index name="user_mode_date">
+					<column name="userid" />
+					<column name="mode" />
+					<column name="date" />
+				</index>
+				<index name="pub_user_mode_date">
+					<column name="published" />
+					<column name="userid" />
+					<column name="mode" />
+					<column name="date" />
+				</index>
+				<index name="mode_pub_date">
+					<column name="mode" />
+					<column name="published" />
+					<column name="date" />
+				</index>
+				<index name="status_user_mode">
+					<column name="status" />
+					<column name="userid" />
+					<column name="mode" />
+				</index>
+				<index name="poster_mode_pub_date">
+					<column name="posterid" />
+					<column name="mode" />
+					<column name="published" />
+					<column name="date" />
+				</index>
+			</indexes>
+		</table>
+	</database>
+	<install>
+	</install>
+  	<uninstall>
+	</uninstall>
+	<installfile>install.profilebook.php</installfile>
+	<uninstallfile>uninstall.profilebook.php</uninstallfile>
+</cbinstall>
